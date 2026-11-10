@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saavdhan</title>
+  <meta name="description" content="Saavdhan listens to a phone call on speaker and warns you out loud, in your language, the moment it turns into a scam. Built on Gnani AI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="home.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23E23D28'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='serif'%3E%E0%A4%B8%3C/text%3E%3C/svg%3E" />
+</head>
+<body class="home" data-state="idle">
+  <header class="top">
+    <a class="mark" href="/" aria-label="Saavdhan home">सावधान <span>Saavdhan</span></a>
+    <nav class="nav" aria-label="On this page">
+      <a href="#how">How it works</a>
+      <a href="#try">Try a line</a>
+    </nav>
+    <a class="helpline" href="/app">Open Saavdhan</a>
+  </header>
+
+  <main>
+    <!-- 1. The product proves itself: a scam call, replayed in Saavdhan's own interface -->
+    <section class="hero">
+      <div class="hero-copy">
+        <h1 class="split">Hears the scam before you do.</h1>
+        <p class="lede">Put a call on speaker. Saavdhan listens in Hindi, English or Hinglish, and warns you out loud the moment it turns into fraud.</p>
+        <div class="ctas">
+          <a class="btn" href="/app">Start listening</a>
+          <a class="link" href="/app#file">Check a recording</a>
+        </div>
+      </div>
+
+      <figure class="replay" id="replay" data-state="suspicious" aria-label="An example scam call, replayed in Saavdhan">
+        <div class="r-head">
+          <p class="r-word" id="r-word">सावधान</p>
+          <div class="r-risk"><div class="bar"><span id="r-bar" style="width:62%"></span></div><span class="num" id="r-num">62</span></div>
+        </div>
+        <div class="r-lines" id="r-lines">
+          <p>Hello, मैं मुंबई <mark class="hl on">crime branch</mark> से inspector राजेश शर्मा बोल रहा हूँ।</p>
+          <p>आपके आधार से एक <mark class="hl on">पार्सल</mark> बुक हुआ है, उसमें <mark class="hl on">ड्रग्स</mark> मिले हैं।</p>
+        </div>
+        <div class="r-flood" id="r-flood" aria-hidden="true">
+          <p class="f-word">धोखा है।</p>
+          <p class="f-say">Hang up. Call 1930.</p>
+        </div>
+        <button class="link r-again" id="r-again" hidden>Play it again</button>
+      </figure>
+    </section>
+
+    <!-- 2. Three Gnani models, one job -->
+    <section class="how" id="how">
+      <h2 class="split">Three Gnani models, one job.</h2>
+      <div class="steps">
+        <div class="step">
+          <p class="verb" data-i18n>सुनता है</p>
+          <h3>Prisma listens</h3>
+          <p>Turns the call into text while it is spoken, in ten Indian languages, Hinglish included.</p>
+        </div>
+        <div class="step">
+          <p class="verb" data-i18n>समझता है</p>
+          <h3>Evon understands</h3>
+          <p>A 30-billion-parameter model reads the whole conversation and names the scam, not just the keywords.</p>
+        </div>
+        <div class="step">
+          <p class="verb" data-i18n>बोलता है</p>
+          <h3>Timbre speaks</h3>
+          <p>Says the warning out loud, in the language of the call, so nobody has to read a screen mid-call.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Try a line: the instant check, live, at no cost -->
+    <section class="try" id="try">
+      <h2 class="split">Say what a caller might say.</h2>
+      <div class="try-grid">
+        <div class="try-in">
+          <label class="sr" for="line">A line from a phone call</label>
+          <textarea id="line" rows="2" placeholder="Type a line in any Indian language"></textarea>
+          <div class="examples" id="examples">
+            <button>Aapka KYC aaj expire ho raha hai, OTP bata dijiye</button>
+            <button>Aap digital arrest mein hain, kisi ko mat bataiye, turant paise transfer kijiye</button>
+            <button>AnyDesk download kijiye, main aapki help karta hoon</button>
+            <button>Beta, khana kha liya? Papa kaise hain?</button>
+            <button>Mera pin code 110001 hai, parcel yahin bhej dena</button>
+          </div>
+        </div>
+        <div class="try-out" id="try-out" data-state="idle" aria-live="polite">
+          <p class="t-word" id="t-word" data-i18n data-fit>तैयार</p>
+          <div class="r-risk"><div class="bar"><span id="t-bar"></span></div><span class="num" id="t-num">0</span></div>
+          <p class="t-signs" id="t-signs"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Close -->
+    <section class="last">
+      <p class="last-line split">Next time the phone rings, keep Saavdhan open.</p>
+      <div class="ctas">
+        <a class="btn" href="/app">Start listening</a>
+        <a class="link" href="tel:1930">Already paid someone? Call 1930</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>Prisma listens</span><span>Evon thinks</span><span>Timbre speaks</span>
+    <span class="by">Built on Gnani AI. Nothing is recorded or stored.</span>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="i18n.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>

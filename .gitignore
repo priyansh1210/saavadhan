@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+samples/*.wav
+launch/
+brag-output/work/

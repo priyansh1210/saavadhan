@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saavdhan</title>
+  <meta name="description" content="Saavdhan listens to a phone call on speaker and warns you, out loud and in your language, the moment it sounds like a scam." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23E23D28'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='serif'%3E%E0%A4%B8%3C/text%3E%3C/svg%3E" />
+</head>
+<body data-state="idle">
+  <header class="top">
+    <a class="mark" href="/" aria-label="Saavdhan home">सावधान <span>Saavdhan</span></a>
+    <nav class="nav" aria-label="Sections">
+      <button class="tab active" data-tab="live">Live call</button>
+      <button class="tab" data-tab="file">Recording</button>
+      <button class="tab" data-tab="learn">Know the scams</button>
+    </nav>
+    <a class="helpline" href="tel:1930">Helpline 1930</a>
+  </header>
+
+  <main class="stage">
+    <!-- Verdict: the one focal point. Its colour is the state. -->
+    <section class="verdict" id="verdict-block" aria-live="polite">
+      <p class="word" id="verdict" data-i18n data-fit>तैयार</p>
+      <p class="say" id="verdict-en">Put the call on speaker, then tap Listen.</p>
+      <div class="risk" aria-label="Scam risk">
+        <div class="bar"><span id="risk-bar"></span></div>
+        <span class="num"><span id="risk-num">0</span>/100</span>
+      </div>
+      <p class="evon" id="evon-text"></p>
+      <p class="signs" id="signs"></p>
+    </section>
+
+    <!-- LIVE -->
+    <section id="tab-live" class="panel active">
+      <div class="talk" id="transcript"><p class="hint">The call's words will appear here as they are spoken.</p></div>
+      <div class="dock">
+        <button id="mic" class="mic" aria-label="Start listening">
+          <svg class="i-mic" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></svg>
+          <svg class="i-stop" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2"/></svg>
+        </button>
+        <div class="dock-text">
+          <b id="mic-label">Listen</b>
+          <span id="timer"></span>
+        </div>
+        <label class="lang">
+          <span class="sr">Call language</span>
+          <select id="langs">
+            <option value="hi-IN,en-IN">Hinglish</option>
+            <option value="indic-auto">Detect language</option>
+            <option value="en-IN">English</option>
+            <option value="ta-IN,en-IN">Tamil</option>
+            <option value="te-IN,en-IN">Telugu</option>
+            <option value="kn-IN,en-IN">Kannada</option>
+            <option value="ml-IN,en-IN">Malayalam</option>
+            <option value="mr-IN,hi-IN">Marathi</option>
+            <option value="bn-IN,en-IN">Bengali</option>
+            <option value="gu-IN,hi-IN">Gujarati</option>
+            <option value="pa-IN,hi-IN">Punjabi</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <!-- RECORDING -->
+    <section id="tab-file" class="panel">
+      <div class="drop" id="drop">
+        <input type="file" id="file" accept="audio/*,video/*,.wav,.mp3,.m4a,.ogg,.opus,.aac,.flac,.amr" hidden />
+        <p class="drop-line">Drop a call recording here, or <button class="link" id="pick">choose a file</button>.</p>
+        <p class="file-name" id="file-name"></p>
+        <button class="btn" id="analyze" disabled>Check this call</button>
+      </div>
+      <p class="loading" id="loading" hidden><span class="spin" aria-hidden="true"></span><span id="loading-text">Listening to the recording</span></p>
+      <div id="result" hidden>
+        <div class="player">
+          <audio id="player" controls></audio>
+          <button class="link" id="skip">Show the whole result</button>
+        </div>
+        <div class="talk" id="transcript2"></div>
+      </div>
+    </section>
+
+    <!-- LEARN -->
+    <section id="tab-learn" class="panel">
+      <h1 class="rule">Police, banks and the government never ask for an OTP, a PIN or money on a call.</h1>
+      <dl class="scams">
+        <dt>Digital arrest <span data-i18n>डिजिटल अरेस्ट</span></dt>
+        <dd>A fake CBI, police or customs officer says a parcel with drugs, or a money-laundering case, is in your name. They keep you on a video call and ask you to move money to a "safe account". There is no such thing as a digital arrest.</dd>
+        <dt>KYC or account block <span data-i18n>केवाईसी अपडेट</span></dt>
+        <dd>"Your bank account or SIM will be blocked today." Then they ask for an OTP, UPI PIN, CVV or card number.</dd>
+        <dt>Screen-sharing apps <span data-i18n>स्क्रीन शेयर</span></dt>
+        <dd>They ask you to install AnyDesk, TeamViewer or an APK, or to click a link, and then take over your phone.</dd>
+        <dt>Prize or refund <span data-i18n>इनाम या रिफ़ंड</span></dt>
+        <dd>"You won KBC" or "your refund is ready", but first a small fee or an OTP.</dd>
+        <dt>Electricity cut-off <span data-i18n>बिजली कनेक्शन</span></dt>
+        <dd>"Your connection will be cut tonight unless you pay on this number now."</dd>
+        <dt>Secrecy and pressure <span data-i18n>किसी को मत बताना</span></dt>
+        <dd>"Don't tell your family." "Don't hang up." "Do it right now." Pressure plus secrecy is the clearest sign of all.</dd>
+      </dl>
+      <p class="after">Already paid? Call <a href="tel:1930">1930</a> at once or report at <a href="https://cybercrime.gov.in" target="_blank" rel="noopener">cybercrime.gov.in</a>. The sooner you report, the better the chance of freezing the money.</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span class="model" data-k="prisma">Prisma listens</span>
+    <span class="model" data-k="evon">Evon thinks</span>
+    <span class="model" data-k="timbre">Timbre speaks</span>
+    <span class="by">Built on Gnani AI. Nothing is recorded or stored.</span>
+  </footer>
+
+  <!-- ALARM: takes over the screen, like an incoming call -->
+  <div id="alarm" class="alarm" role="alertdialog" aria-modal="true" aria-labelledby="alarm-title" hidden>
+    <div class="alarm-in">
+      <p class="alarm-word" id="alarm-title" data-i18n data-fit>धोखा है।</p>
+      <p class="alarm-en">This is a scam call<span id="alarm-type"></span>.</p>
+      <p class="alarm-text" id="alarm-text"></p>
+      <p class="alarm-rule">Don't share any OTP, PIN or money.</p>
+      <div class="alarm-actions">
+        <a class="btn white" href="tel:1930">Hang up and call 1930</a>
+        <button id="alarm-replay" class="link light">Hear the warning again</button>
+        <button id="alarm-close" class="link light">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7656 @@
+{
+"Sir aapke naam pe 2 lakh ka loan approve hua hai, file charge 5000 bhej dijiye": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"legal_threat",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"Main army officer hoon, aapka sofa kharidna hai, QR code scan karke payment receive kar lo": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 82,
+"rules_signs": [
+"authority",
+"qr_scam"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Galti se aapke account mein 10000 chale gaye, please wapas bhej do": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"pay_now",
+"wrong_transfer"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"Aapke Aadhaar ka misuse hua hai, verification ke liye video call pe aaiye aur kisi ko mat bataiye": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 81,
+"rules_signs": [
+"legal_threat",
+"secrecy",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"Income tax refund pending hai, link pe click karke bank details daalo": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 92,
+"rules_signs": [
+"authority",
+"remote_access",
+"details",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"Aapka nati police thane mein band hai, abhi 40 hazaar bhejoge to chhod denge": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 97,
+"rules_signs": [
+"digital_arrest",
+"family",
+"authority",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"Aapki insurance policy ka bonus nikla hai, policy number bataiye": {
+"lang": "hinglish",
+"label": "warn",
+"rules_score": 83,
+"rules_signs": [
+"asks_number",
+"insurance_bait",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"FASTag KYC expire ho gaya, abhi update karna padega": {
+"lang": "hinglish",
+"label": "warn",
+"rules_score": 67,
+"rules_signs": [
+"account_block",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"Court se summon aaya hai aapke naam ka": {
+"lang": "hinglish",
+"label": "warn",
+"rules_score": 71,
+"rules_signs": [
+"digital_arrest",
+"legal_threat"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"Kal nani ke ghar jaana hai, gift le aana": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Papa ne bijli ka bill bhar diya hai": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Beta exam ke liye all the best, shaam ko call karna": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Mera OTP nahi aa raha, main dobara try karti hoon": {
+"lang": "hinglish",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Bank manager ne bola account mein KYC update karna hai, kal branch jaunga": {
+"lang": "hinglish",
+"label": "nowarn",
+"rules_score": 48,
+"rules_signs": [
+"authority",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"आपके नाम पर दो लाख का लोन मंज़ूर हुआ है, फ़ाइल चार्ज पाँच हज़ार भेज दीजिए": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"legal_threat",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"गलती से आपके खाते में दस हज़ार चले गए, कृपया वापस भेज दो": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"pay_now",
+"wrong_transfer"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"आपके आधार का गलत इस्तेमाल हुआ है, वीडियो कॉल पर आइए और किसी को मत बताइए": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 81,
+"rules_signs": [
+"legal_threat",
+"secrecy",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"आपका नाती पुलिस थाने में बंद है, अभी चालीस हज़ार भेजो तो छोड़ देंगे": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 93,
+"rules_signs": [
+"family",
+"authority",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"बिजली विभाग से बोल रहा हूँ, बिल बकाया है, आज रात कनेक्शन कट जाएगा, तुरंत भुगतान करें": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 86,
+"rules_signs": [
+"authority",
+"pay_now",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"आपको इनाम में कार मिली है, रजिस्ट्रेशन फीस जमा करें": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"pay_now",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"आपकी बीमा पॉलिसी का बोनस निकला है, पॉलिसी नंबर बताइए": {
+"lang": "hi",
+"label": "warn",
+"rules_score": 83,
+"rules_signs": [
+"asks_number",
+"insurance_bait",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"कोर्ट से आपके नाम का समन आया है": {
+"lang": "hi",
+"label": "warn",
+"rules_score": 71,
+"rules_signs": [
+"digital_arrest",
+"legal_threat"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"आपका पैन कार्ड बंद हो जाएगा, आधार से लिंक कीजिए": {
+"lang": "hi",
+"label": "warn",
+"rules_score": 67,
+"rules_signs": [
+"account_block",
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"कल नानी के घर जाना है": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"पापा ने बिजली का बिल भर दिया है": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"बेटा, परीक्षा के लिए शुभकामनाएँ": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मेरा ओटीपी नहीं आ रहा, फिर से कोशिश करती हूँ": {
+"lang": "hi",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"बैंक मैनेजर ने कहा है कि केवाईसी अपडेट करना है, कल शाखा जाऊँगा": {
+"lang": "hi",
+"label": "nowarn",
+"rules_score": 48,
+"rules_signs": [
+"authority",
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"तुमच्या नावावर दोन लाखांचे कर्ज मंजूर झाले आहे, फाईल चार्ज पाच हजार रुपये पाठवा": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"legal_threat",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"चुकून तुमच्या खात्यात दहा हजार रुपये गेले, कृपया परत पाठवा": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"pay_now",
+"wrong_transfer"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"तुमच्या आधारचा गैरवापर झाला आहे, व्हिडिओ कॉल चालू ठेवा आणि कोणालाही सांगू नका": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 81,
+"rules_signs": [
+"legal_threat",
+"secrecy",
+"id_doc"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"तुमचा नातू पोलीस स्टेशनमध्ये आहे, आत्ता चाळीस हजार पाठवा तर सोडू": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 93,
+"rules_signs": [
+"family",
+"authority",
+"pay_now"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"वीज मंडळातून बोलतोय, बिल थकले आहे, आज रात्री वीज कापली जाईल, लगेच पैसे भरा": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 86,
+"rules_signs": [
+"authority",
+"pay_now",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"तुम्हाला बक्षीस म्हणून गाडी लागली आहे, नोंदणी फी भरा": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"pay_now",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"तुमच्या विमा पॉलिसीचा बोनस आला आहे, पॉलिसी नंबर सांगा": {
+"lang": "mr",
+"label": "warn",
+"rules_score": 83,
+"rules_signs": [
+"asks_number",
+"insurance_bait",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"तुमच्या नावाने कोर्टाचे समन्स आले आहे": {
+"lang": "mr",
+"label": "warn",
+"rules_score": 71,
+"rules_signs": [
+"digital_arrest",
+"legal_threat"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"तुमचे पॅन कार्ड बंद होईल, आधारशी लिंक करा": {
+"lang": "mr",
+"label": "warn",
+"rules_score": 67,
+"rules_signs": [
+"account_block",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"उद्या आजीकडे जायचे आहे": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"बाबांनी वीज बिल भरले आहे": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"परीक्षेसाठी शुभेच्छा, संध्याकाळी फोन कर": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"माझा ओटीपी येत नाही, पुन्हा प्रयत्न करते": {
+"lang": "mr",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "OTP or PIN theft",
+"prompt": "9fce7d0809"
+},
+"बँक मॅनेजरने केवायसी अपडेट करायला सांगितले, उद्या शाखेत जाईन": {
+"lang": "mr",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"તમારા નામે બે લાખની લોન મંજૂર થઈ છે, ફાઇલ ચાર્જ પાંચ હજાર રૂપિયા મોકલો": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"legal_threat",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"ભૂલથી તમારા ખાતામાં દસ હજાર રૂપિયા જતા રહ્યા, મહેરબાની કરીને પાછા મોકલો": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"pay_now",
+"wrong_transfer"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"તમારા આધારનો દુરુપયોગ થયો છે, વિડિયો કૉલ ચાલુ રાખો અને કોઈને કહેશો નહીં": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 81,
+"rules_signs": [
+"legal_threat",
+"secrecy",
+"id_doc"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"તમારો પૌત્ર પોલીસ સ્ટેશનમાં છે, હમણાં ચાલીસ હજાર મોકલો તો છોડી દઈશું": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 93,
+"rules_signs": [
+"family",
+"authority",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"વીજ કંપનીમાંથી બોલું છું, બિલ બાકી છે, આજે રાત્રે વીજળી કાપી નાખવામાં આવશે, તરત પૈસા ભરો": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 86,
+"rules_signs": [
+"authority",
+"pay_now",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"તમને ઇનામમાં ગાડી લાગી છે, રજીસ્ટ્રેશન ફી ભરો": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"pay_now",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"તમારી વીમા પૉલિસીનું બોનસ આવ્યું છે, પૉલિસી નંબર કહો": {
+"lang": "gu",
+"label": "warn",
+"rules_score": 83,
+"rules_signs": [
+"asks_number",
+"insurance_bait",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"તમારા નામે કોર્ટનું સમન્સ આવ્યું છે": {
+"lang": "gu",
+"label": "warn",
+"rules_score": 71,
+"rules_signs": [
+"digital_arrest",
+"legal_threat"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"તમારું પાન કાર્ડ બંધ થઈ જશે, આધાર સાથે લિંક કરો": {
+"lang": "gu",
+"label": "warn",
+"rules_score": 67,
+"rules_signs": [
+"account_block",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"કાલે નાનીના ઘરે જવાનું છે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"પપ્પાએ વીજળીનું બિલ ભરી દીધું છે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"પરીક્ષા માટે શુભેચ્છા, સાંજે ફોન કરજે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"મારો ઓટીપી નથી આવતો, ફરી પ્રયત્ન કરું છું": {
+"lang": "gu",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"બેંક મેનેજરે કેવાયસી અપડેટ કરવાનું કહ્યું છે, કાલે શાખામાં જઈશ": {
+"lang": "gu",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡੇ ਨਾਂ 'ਤੇ ਦੋ ਲੱਖ ਦਾ ਲੋਨ ਮਨਜ਼ੂਰ ਹੋਇਆ ਹੈ, ਫਾਈਲ ਚਾਰਜ ਪੰਜ ਹਜ਼ਾਰ ਰੁਪਏ ਭੇਜੋ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"legal_threat",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"ਗਲਤੀ ਨਾਲ ਤੁਹਾਡੇ ਖਾਤੇ ਵਿੱਚ ਦਸ ਹਜ਼ਾਰ ਰੁਪਏ ਚਲੇ ਗਏ, ਕਿਰਪਾ ਕਰਕੇ ਵਾਪਸ ਭੇਜੋ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"pay_now",
+"wrong_transfer"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡੇ ਆਧਾਰ ਦੀ ਗਲਤ ਵਰਤੋਂ ਹੋਈ ਹੈ, ਵੀਡੀਓ ਕਾਲ ਚਾਲੂ ਰੱਖੋ ਅਤੇ ਕਿਸੇ ਨੂੰ ਨਾ ਦੱਸੋ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 81,
+"rules_signs": [
+"legal_threat",
+"secrecy",
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡਾ ਪੋਤਾ ਥਾਣੇ ਵਿੱਚ ਬੰਦ ਹੈ, ਹੁਣੇ ਚਾਲੀ ਹਜ਼ਾਰ ਭੇਜੋ ਤਾਂ ਛੱਡ ਦੇਵਾਂਗੇ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 93,
+"rules_signs": [
+"family",
+"authority",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ਬਿਜਲੀ ਵਿਭਾਗ ਤੋਂ ਬੋਲ ਰਿਹਾ ਹਾਂ, ਬਿੱਲ ਬਕਾਇਆ ਹੈ, ਅੱਜ ਰਾਤ ਬਿਜਲੀ ਕੱਟ ਦਿੱਤੀ ਜਾਵੇਗੀ, ਤੁਰੰਤ ਪੈਸੇ ਭਰੋ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 86,
+"rules_signs": [
+"authority",
+"pay_now",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਨੂੰ ਇਨਾਮ ਵਿੱਚ ਕਾਰ ਨਿਕਲੀ ਹੈ, ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਫੀਸ ਭਰੋ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"pay_now",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡੀ ਬੀਮਾ ਪਾਲਿਸੀ ਦਾ ਬੋਨਸ ਨਿਕਲਿਆ ਹੈ, ਪਾਲਿਸੀ ਨੰਬਰ ਦੱਸੋ": {
+"lang": "pa",
+"label": "warn",
+"rules_score": 83,
+"rules_signs": [
+"asks_number",
+"insurance_bait",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡੇ ਨਾਂ 'ਤੇ ਅਦਾਲਤ ਦਾ ਸੰਮਨ ਆਇਆ ਹੈ": {
+"lang": "pa",
+"label": "warn",
+"rules_score": 71,
+"rules_signs": [
+"digital_arrest",
+"legal_threat"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡਾ ਪੈਨ ਕਾਰਡ ਬੰਦ ਹੋ ਜਾਵੇਗਾ, ਆਧਾਰ ਨਾਲ ਲਿੰਕ ਕਰੋ": {
+"lang": "pa",
+"label": "warn",
+"rules_score": 67,
+"rules_signs": [
+"account_block",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"ਕੱਲ੍ਹ ਨਾਨੀ ਦੇ ਘਰ ਜਾਣਾ ਹੈ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਪਾਪਾ ਨੇ ਬਿਜਲੀ ਦਾ ਬਿੱਲ ਭਰ ਦਿੱਤਾ ਹੈ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਇਮਤਿਹਾਨ ਲਈ ਸ਼ੁਭਕਾਮਨਾਵਾਂ, ਸ਼ਾਮ ਨੂੰ ਫ਼ੋਨ ਕਰੀਂ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਮੇਰਾ ਓਟੀਪੀ ਨਹੀਂ ਆ ਰਿਹਾ, ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰਦੀ ਹਾਂ": {
+"lang": "pa",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਬੈਂਕ ਮੈਨੇਜਰ ਨੇ ਕੇਵਾਈਸੀ ਅੱਪਡੇਟ ਕਰਨ ਲਈ ਕਿਹਾ ਹੈ, ਕੱਲ੍ਹ ਬ੍ਰਾਂਚ ਜਾਵਾਂਗਾ": {
+"lang": "pa",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"আপনার নামে দুই লাখ টাকার লোন মঞ্জুর হয়েছে, ফাইল চার্জ পাঁচ হাজার টাকা পাঠান": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"legal_threat",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"ভুল করে আপনার অ্যাকাউন্টে দশ হাজার টাকা চলে গেছে, দয়া করে ফেরত পাঠান": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"pay_now",
+"wrong_transfer"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"আপনার আধারের অপব্যবহার হয়েছে, ভিডিও কল চালু রাখুন আর কাউকে বলবেন না": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 81,
+"rules_signs": [
+"legal_threat",
+"secrecy",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"আপনার নাতি থানায় আটক আছে, এখনই চল্লিশ হাজার পাঠান তাহলে ছেড়ে দেব": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 93,
+"rules_signs": [
+"family",
+"authority",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"বিদ্যুৎ দপ্তর থেকে বলছি, বিল বাকি আছে, আজ রাতে সংযোগ কেটে দেওয়া হবে, এখনই টাকা জমা দিন": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 86,
+"rules_signs": [
+"authority",
+"pay_now",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"আপনি পুরস্কার হিসেবে গাড়ি পেয়েছেন, রেজিস্ট্রেশন ফি জমা দিন": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"pay_now",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"আপনার বিমা পলিসির বোনাস এসেছে, পলিসি নম্বর বলুন": {
+"lang": "bn",
+"label": "warn",
+"rules_score": 83,
+"rules_signs": [
+"asks_number",
+"insurance_bait",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"আপনার নামে আদালতের সমন এসেছে": {
+"lang": "bn",
+"label": "warn",
+"rules_score": 71,
+"rules_signs": [
+"digital_arrest",
+"legal_threat"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"আপনার প্যান কার্ড বন্ধ হয়ে যাবে, আধারের সঙ্গে লিংক করুন": {
+"lang": "bn",
+"label": "warn",
+"rules_score": 67,
+"rules_signs": [
+"account_block",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"কাল দিদিমার বাড়ি যেতে হবে": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"বাবা বিদ্যুতের বিল জমা দিয়েছেন": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"পরীক্ষার জন্য শুভেচ্ছা, সন্ধ্যায় ফোন কোরো": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"আমার ওটিপি আসছে না, আবার চেষ্টা করছি": {
+"lang": "bn",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ব্যাংক ম্যানেজার কেওয়াইসি আপডেট করতে বলেছেন, কাল শাখায় যাব": {
+"lang": "bn",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"உங்கள் பெயரில் இரண்டு லட்சம் கடன் அனுமதிக்கப்பட்டுள்ளது, கோப்பு கட்டணம் ஐந்தாயிரம் ரூபாய் அனுப்புங்கள்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"legal_threat",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"தவறுதலாக உங்கள் கணக்கில் பத்தாயிரம் ரூபாய் வந்துவிட்டது, தயவுசெய்து திருப்பி அனுப்புங்கள்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"pay_now",
+"wrong_transfer"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"உங்கள் ஆதார் தவறாகப் பயன்படுத்தப்பட்டுள்ளது, வீடியோ காலை துண்டிக்காதீர்கள், யாரிடமும் சொல்லாதீர்கள்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 81,
+"rules_signs": [
+"legal_threat",
+"secrecy",
+"id_doc"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"உங்கள் பேரன் காவல் நிலையத்தில் இருக்கிறான், இப்போதே நாற்பதாயிரம் அனுப்பினால் விடுவிப்போம்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 93,
+"rules_signs": [
+"family",
+"authority",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"மின்வாரியத்திலிருந்து பேசுகிறோம், கட்டணம் நிலுவையில் உள்ளது, இன்று இரவு மின் இணைப்பு துண்டிக்கப்படும், உடனே பணம் செலுத்துங்கள்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 86,
+"rules_signs": [
+"authority",
+"pay_now",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"நீங்கள் பரிசாக கார் வென்றுள்ளீர்கள், பதிவுக் கட்டணம் செலுத்துங்கள்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"pay_now",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"உங்கள் காப்பீட்டு பாலிசிக்கு போனஸ் வந்துள்ளது, பாலிசி எண்ணைச் சொல்லுங்கள்": {
+"lang": "ta",
+"label": "warn",
+"rules_score": 83,
+"rules_signs": [
+"asks_number",
+"insurance_bait",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"உங்கள் பெயரில் நீதிமன்ற சம்மன் வந்துள்ளது": {
+"lang": "ta",
+"label": "warn",
+"rules_score": 71,
+"rules_signs": [
+"digital_arrest",
+"legal_threat"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"உங்கள் பான் கார்டு முடக்கப்படும், ஆதாருடன் இணைக்கவும்": {
+"lang": "ta",
+"label": "warn",
+"rules_score": 67,
+"rules_signs": [
+"account_block",
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"நாளை பாட்டி வீட்டுக்குப் போக வேண்டும்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"அப்பா மின் கட்டணத்தைக் கட்டிவிட்டார்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"தேர்வுக்கு வாழ்த்துக்கள், மாலையில் போன் செய்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"எனக்கு ஓடிபி வரவில்லை, மீண்டும் முயற்சிக்கிறேன்": {
+"lang": "ta",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"வங்கி மேலாளர் கேஒய்சி புதுப்பிக்கச் சொன்னார், நாளை கிளைக்குப் போவேன்": {
+"lang": "ta",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"మీ పేరు మీద రెండు లక్షల లోన్ మంజూరైంది, ఫైల్ ఛార్జీ ఐదు వేల రూపాయలు పంపండి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"legal_threat",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"పొరపాటున మీ ఖాతాలోకి పది వేల రూపాయలు వచ్చాయి, దయచేసి తిరిగి పంపండి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"pay_now",
+"wrong_transfer"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"మీ ఆధార్ దుర్వినియోగం అయింది, వీడియో కాల్ కట్ చేయకండి, ఎవరికీ చెప్పకండి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 81,
+"rules_signs": [
+"legal_threat",
+"secrecy",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"మీ మనవడు పోలీస్ స్టేషన్‌లో ఉన్నాడు, ఇప్పుడే నలభై వేలు పంపితే వదిలేస్తాం": {
+"lang": "te",
+"label": "scam",
+"rules_score": 93,
+"rules_signs": [
+"family",
+"authority",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"విద్యుత్ శాఖ నుండి మాట్లాడుతున్నాం, బిల్లు బకాయి ఉంది, ఈరోజు రాత్రి కరెంట్ కట్ చేస్తాము, వెంటనే డబ్బు కట్టండి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 86,
+"rules_signs": [
+"authority",
+"pay_now",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"మీకు బహుమతిగా కారు వచ్చింది, రిజిస్ట్రేషన్ ఫీజు కట్టండి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"pay_now",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"మీ బీమా పాలసీకి బోనస్ వచ్చింది, పాలసీ నంబర్ చెప్పండి": {
+"lang": "te",
+"label": "warn",
+"rules_score": 83,
+"rules_signs": [
+"asks_number",
+"insurance_bait",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"మీ పేరు మీద కోర్టు సమన్లు వచ్చాయి": {
+"lang": "te",
+"label": "warn",
+"rules_score": 71,
+"rules_signs": [
+"digital_arrest",
+"legal_threat"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"మీ పాన్ కార్డ్ బ్లాక్ అవుతుంది, ఆధార్‌తో లింక్ చేయండి": {
+"lang": "te",
+"label": "warn",
+"rules_score": 67,
+"rules_signs": [
+"account_block",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"రేపు అమ్మమ్మ ఇంటికి వెళ్ళాలి": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"నాన్న కరెంట్ బిల్లు కట్టేశారు": {
+"lang": "te",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"పరీక్షకు శుభాకాంక్షలు, సాయంత్రం ఫోన్ చెయ్": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"నాకు ఓటీపీ రావడం లేదు, మళ్ళీ ప్రయత్నిస్తాను": {
+"lang": "te",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"బ్యాంక్ మేనేజర్ కేవైసీ అప్‌డేట్ చేయమన్నారు, రేపు బ్రాంచ్‌కి వెళ్తాను": {
+"lang": "te",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ಹೆಸರಿನಲ್ಲಿ ಎರಡು ಲಕ್ಷ ಸಾಲ ಮಂಜೂರಾಗಿದೆ, ಫೈಲ್ ಶುಲ್ಕ ಐದು ಸಾವಿರ ರೂಪಾಯಿ ಕಳುಹಿಸಿ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"legal_threat",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"ತಪ್ಪಾಗಿ ನಿಮ್ಮ ಖಾತೆಗೆ ಹತ್ತು ಸಾವಿರ ರೂಪಾಯಿ ಬಂದಿದೆ, ದಯವಿಟ್ಟು ವಾಪಸ್ ಕಳುಹಿಸಿ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 93,
+"rules_signs": [
+"pay_now",
+"account_block",
+"wrong_transfer"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ಆಧಾರ್ ದುರುಪಯೋಗವಾಗಿದೆ, ವಿಡಿಯೋ ಕಾಲ್ ಕಟ್ ಮಾಡಬೇಡಿ, ಯಾರಿಗೂ ಹೇಳಬೇಡಿ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 81,
+"rules_signs": [
+"legal_threat",
+"secrecy",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ಮೊಮ್ಮಗ ಪೊಲೀಸ್ ಠಾಣೆಯಲ್ಲಿದ್ದಾನೆ, ಈಗಲೇ ನಲವತ್ತು ಸಾವಿರ ಕಳುಹಿಸಿದರೆ ಬಿಡುತ್ತೇವೆ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 93,
+"rules_signs": [
+"family",
+"authority",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ವಿದ್ಯುತ್ ಇಲಾಖೆಯಿಂದ ಮಾತನಾಡುತ್ತಿದ್ದೇವೆ, ಬಿಲ್ ಬಾಕಿ ಇದೆ, ಇಂದು ರಾತ್ರಿ ಸಂಪರ್ಕ ಕಡಿತಗೊಳ್ಳುತ್ತದೆ, ತಕ್ಷಣ ಹಣ ಪಾವತಿಸಿ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 86,
+"rules_signs": [
+"authority",
+"pay_now",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"ನಿಮಗೆ ಬಹುಮಾನವಾಗಿ ಕಾರು ಬಂದಿದೆ, ನೋಂದಣಿ ಶುಲ್ಕ ಪಾವತಿಸಿ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"pay_now",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ವಿಮಾ ಪಾಲಿಸಿಗೆ ಬೋನಸ್ ಬಂದಿದೆ, ಪಾಲಿಸಿ ಸಂಖ್ಯೆ ಹೇಳಿ": {
+"lang": "kn",
+"label": "warn",
+"rules_score": 83,
+"rules_signs": [
+"asks_number",
+"insurance_bait",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ಹೆಸರಿನಲ್ಲಿ ನ್ಯಾಯಾಲಯದ ಸಮನ್ಸ್ ಬಂದಿದೆ": {
+"lang": "kn",
+"label": "warn",
+"rules_score": 71,
+"rules_signs": [
+"digital_arrest",
+"legal_threat"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ಪ್ಯಾನ್ ಕಾರ್ಡ್ ಬ್ಲಾಕ್ ಆಗುತ್ತದೆ, ಆಧಾರ್‌ಗೆ ಲಿಂಕ್ ಮಾಡಿ": {
+"lang": "kn",
+"label": "warn",
+"rules_score": 67,
+"rules_signs": [
+"account_block",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"ನಾಳೆ ಅಜ್ಜಿ ಮನೆಗೆ ಹೋಗಬೇಕು": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಅಪ್ಪ ಕರೆಂಟ್ ಬಿಲ್ ಕಟ್ಟಿದ್ದಾರೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಪರೀಕ್ಷೆಗೆ ಶುಭಾಶಯಗಳು, ಸಂಜೆ ಫೋನ್ ಮಾಡು": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನನಗೆ ಒಟಿಪಿ ಬರುತ್ತಿಲ್ಲ, ಮತ್ತೆ ಪ್ರಯತ್ನಿಸುತ್ತೇನೆ": {
+"lang": "kn",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಬ್ಯಾಂಕ್ ಮ್ಯಾನೇಜರ್ ಕೆವೈಸಿ ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ಹೇಳಿದರು, ನಾಳೆ ಶಾಖೆಗೆ ಹೋಗುತ್ತೇನೆ": {
+"lang": "kn",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ പേരിൽ രണ്ട് ലക്ഷം രൂപയുടെ ലോൺ അനുവദിച്ചു, ഫയൽ ചാർജ് അയ്യായിരം രൂപ അയയ്ക്കൂ": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"legal_threat",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"അബദ്ധത്തിൽ നിങ്ങളുടെ അക്കൗണ്ടിലേക്ക് പതിനായിരം രൂപ വന്നു, ദയവായി തിരികെ അയയ്ക്കൂ": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"pay_now",
+"wrong_transfer"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ ആധാർ ദുരുപയോഗം ചെയ്തു, വീഡിയോ കോൾ കട്ട് ചെയ്യരുത്, ആരോടും പറയരുത്": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 81,
+"rules_signs": [
+"legal_threat",
+"secrecy",
+"id_doc"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ കൊച്ചുമകൻ പോലീസ് സ്റ്റേഷനിലുണ്ട്, ഇപ്പോൾ നാൽപ്പതിനായിരം അയച്ചാൽ വിട്ടയക്കാം": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 93,
+"rules_signs": [
+"family",
+"authority",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"വൈദ്യുതി ബോർഡിൽ നിന്നാണ് വിളിക്കുന്നത്, ബിൽ കുടിശ്ശികയാണ്, ഇന്ന് രാത്രി കണക്ഷൻ വിച്ഛേദിക്കും, ഉടൻ പണം അടയ്ക്കൂ": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 86,
+"rules_signs": [
+"authority",
+"pay_now",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങൾക്ക് സമ്മാനമായി കാർ ലഭിച്ചു, രജിസ്ട്രേഷൻ ഫീസ് അടയ്ക്കൂ": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"pay_now",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ ഇൻഷുറൻസ് പോളിസിക്ക് ബോണസ് വന്നിട്ടുണ്ട്, പോളിസി നമ്പർ പറയൂ": {
+"lang": "ml",
+"label": "warn",
+"rules_score": 83,
+"rules_signs": [
+"asks_number",
+"insurance_bait",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ പേരിൽ കോടതി സമൻസ് വന്നിട്ടുണ്ട്": {
+"lang": "ml",
+"label": "warn",
+"rules_score": 71,
+"rules_signs": [
+"digital_arrest",
+"legal_threat"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ പാൻ കാർഡ് ബ്ലോക്ക് ആകും, ആധാറുമായി ലിങ്ക് ചെയ്യൂ": {
+"lang": "ml",
+"label": "warn",
+"rules_score": 45,
+"rules_signs": [
+"account_block"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"നാളെ അമ്മൂമ്മയുടെ വീട്ടിൽ പോകണം": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"അച്ഛൻ കറന്റ് ബിൽ അടച്ചു": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"പരീക്ഷയ്ക്ക് ആശംസകൾ, വൈകുന്നേരം വിളിക്കൂ": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"എനിക്ക് ഒടിപി വരുന്നില്ല, വീണ്ടും ശ്രമിക്കാം": {
+"lang": "ml",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ബാങ്ക് മാനേജർ കെവൈസി അപ്ഡേറ്റ് ചെയ്യാൻ പറഞ്ഞു, നാളെ ശാഖയിൽ പോകും": {
+"lang": "ml",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"A loan of 2 lakh has been approved in your name, send the file charge of 5,000 rupees": {
+"lang": "en",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"legal_threat",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"I'm an army officer and want to buy your sofa, scan this QR code to receive the payment": {
+"lang": "en",
+"label": "scam",
+"rules_score": 82,
+"rules_signs": [
+"authority",
+"qr_scam"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"By mistake I transferred 10,000 to your account, please send it back immediately": {
+"lang": "en",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"pay_now",
+"wrong_transfer"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Wrong transfer",
+"prompt": "9fce7d0809"
+},
+"Your grandson is locked up at the police station, pay 40,000 now and we will let him go": {
+"lang": "en",
+"label": "scam",
+"rules_score": 97,
+"rules_signs": [
+"digital_arrest",
+"family",
+"authority",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"This is the electricity board, your bill is overdue, the connection will be cut tonight, pay immediately": {
+"lang": "en",
+"label": "scam",
+"rules_score": 86,
+"rules_signs": [
+"authority",
+"pay_now",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"You have won a car in our lucky draw, deposit the registration fee to claim it": {
+"lang": "en",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"pay_now",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"Your insurance policy has matured with a bonus, please tell me the policy number": {
+"lang": "en",
+"label": "warn",
+"rules_score": 83,
+"rules_signs": [
+"asks_number",
+"insurance_bait",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"A court summons has been issued in your name": {
+"lang": "en",
+"label": "warn",
+"rules_score": 71,
+"rules_signs": [
+"digital_arrest",
+"legal_threat"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"Your PAN card will be deactivated, link it with Aadhaar": {
+"lang": "en",
+"label": "warn",
+"rules_score": 67,
+"rules_signs": [
+"account_block",
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"We're going to grandma's house tomorrow": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Dad already paid the electricity bill": {
+"lang": "en",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"All the best for your exam, call me in the evening": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"My OTP isn't coming, I'll try again": {
+"lang": "en",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"The bank manager asked me to update my KYC, I'll go to the branch tomorrow": {
+"lang": "en",
+"label": "nowarn",
+"rules_score": 48,
+"rules_signs": [
+"authority",
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Aapka credit card limit badhani hai, card ke peeche wale teen number bata dijiye": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"Customer care se bol raha hoon, aapka order cancel ho gaya, refund ke liye UPI se 1 rupaya bhejo": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"pay_now",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Aapki private video hamare paas hai, 20 hazaar nahi diye to sabko bhej denge": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"extortion",
+"blackmail"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"Pension band ho jayegi, life certificate update ke liye Aadhaar OTP bataiye": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Investment",
+"prompt": "9fce7d0809"
+},
+"Traffic challan pending hai, is link se online bhar dijiye": {
+"lang": "hinglish",
+"label": "warn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"Gas subsidy ke liye apna account number confirm kijiye": {
+"lang": "hinglish",
+"label": "warn",
+"rules_score": 65,
+"rules_signs": [
+"asks_number",
+"details"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Bhai shaam ko cricket khelne chalega?": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Didi ne rakhi pe 500 rupaye bheje the": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"आपके क्रेडिट कार्ड की लिमिट बढ़ानी है, कार्ड के पीछे के तीन अंक बता दीजिए": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"आपकी निजी वीडियो हमारे पास है, बीस हज़ार नहीं दिए तो सबको भेज देंगे": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"extortion",
+"blackmail"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"आपकी पेंशन बंद हो जाएगी, जीवन प्रमाण पत्र के लिए आधार ओटीपी बताइए": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"secret_code",
+"account_block",
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"आपका बिजली मीटर अपडेट करना है, यह ऐप डाउनलोड कीजिए और पाँच रुपये भेजिए": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"pay_now",
+"remote_access",
+"utility"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"ट्रैफिक चालान बाकी है, इस लिंक से भर दीजिए": {
+"lang": "hi",
+"label": "warn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"गैस सब्सिडी के लिए अपना खाता नंबर बताइए": {
+"lang": "hi",
+"label": "warn",
+"rules_score": 50,
+"rules_signs": [
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"भाई, शाम को क्रिकेट खेलने चलेगा?": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"दीदी ने राखी पर पाँच सौ रुपये भेजे थे": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"तुमच्या क्रेडिट कार्डची मर्यादा वाढवायची आहे, कार्डच्या मागचे तीन अंक सांगा": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"तुमचा खाजगी व्हिडिओ आमच्याकडे आहे, वीस हजार दिले नाहीत तर सगळ्यांना पाठवू": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"extortion",
+"blackmail"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"तुमची पेन्शन बंद होईल, हयातीच्या दाखल्यासाठी आधार ओटीपी सांगा": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"secret_code",
+"account_block",
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"तुमचे वीज मीटर अपडेट करायचे आहे, हे ॲप डाउनलोड करा आणि पाच रुपये पाठवा": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"pay_now",
+"remote_access",
+"utility"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"वाहतूक दंड बाकी आहे, या लिंकवरून भरा": {
+"lang": "mr",
+"label": "warn",
+"rules_score": 91,
+"rules_signs": [
+"pay_now",
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"गॅस सबसिडीसाठी तुमचा खाते क्रमांक सांगा": {
+"lang": "mr",
+"label": "warn",
+"rules_score": 50,
+"rules_signs": [
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"भाऊ, संध्याकाळी क्रिकेट खेळायला येतोस का?": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ताईने राखीला पाचशे रुपये पाठवले होते": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"તમારા ક્રેડિટ કાર્ડની લિમિટ વધારવાની છે, કાર્ડની પાછળના ત્રણ આંકડા કહો": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"તમારો ખાનગી વિડિયો અમારી પાસે છે, વીસ હજાર નહીં આપો તો બધાને મોકલી દઈશું": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"extortion",
+"blackmail"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"તમારું પેન્શન બંધ થઈ જશે, હયાતીના પ્રમાણપત્ર માટે આધાર ઓટીપી કહો": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"secret_code",
+"account_block",
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"તમારું વીજ મીટર અપડેટ કરવાનું છે, આ એપ ડાઉનલોડ કરો અને પાંચ રૂપિયા મોકલો": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"pay_now",
+"remote_access",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"ટ્રાફિક દંડ બાકી છે, આ લિંક પરથી ભરી દો": {
+"lang": "gu",
+"label": "warn",
+"rules_score": 91,
+"rules_signs": [
+"pay_now",
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ગેસ સબસિડી માટે તમારો ખાતા નંબર કહો": {
+"lang": "gu",
+"label": "warn",
+"rules_score": 50,
+"rules_signs": [
+"asks_number"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"ભાઈ, સાંજે ક્રિકેટ રમવા આવીશ?": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"બહેને રાખડી પર પાંચસો રૂપિયા મોકલ્યા હતા": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡੇ ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਦੀ ਲਿਮਿਟ ਵਧਾਉਣੀ ਹੈ, ਕਾਰਡ ਦੇ ਪਿੱਛੇ ਵਾਲੇ ਤਿੰਨ ਅੰਕ ਦੱਸੋ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡੀ ਨਿੱਜੀ ਵੀਡੀਓ ਸਾਡੇ ਕੋਲ ਹੈ, ਵੀਹ ਹਜ਼ਾਰ ਨਾ ਦਿੱਤੇ ਤਾਂ ਸਾਰਿਆਂ ਨੂੰ ਭੇਜ ਦੇਵਾਂਗੇ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"extortion",
+"blackmail"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡੀ ਪੈਨਸ਼ਨ ਬੰਦ ਹੋ ਜਾਵੇਗੀ, ਜੀਵਨ ਸਰਟੀਫਿਕੇਟ ਲਈ ਆਧਾਰ ਓਟੀਪੀ ਦੱਸੋ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"secret_code",
+"account_block",
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Family emergency",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡਾ ਬਿਜਲੀ ਮੀਟਰ ਅੱਪਡੇਟ ਕਰਨਾ ਹੈ, ਇਹ ਐਪ ਡਾਊਨਲੋਡ ਕਰੋ ਅਤੇ ਪੰਜ ਰੁਪਏ ਭੇਜੋ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"pay_now",
+"remote_access",
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"ਟ੍ਰੈਫਿਕ ਚਲਾਨ ਬਕਾਇਆ ਹੈ, ਇਸ ਲਿੰਕ ਤੋਂ ਭਰ ਦਿਓ": {
+"lang": "pa",
+"label": "warn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ਗੈਸ ਸਬਸਿਡੀ ਲਈ ਆਪਣਾ ਖਾਤਾ ਨੰਬਰ ਦੱਸੋ": {
+"lang": "pa",
+"label": "warn",
+"rules_score": 50,
+"rules_signs": [
+"asks_number"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"ਭਰਾ, ਸ਼ਾਮ ਨੂੰ ਕ੍ਰਿਕਟ ਖੇਡਣ ਚੱਲੇਂਗਾ?": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਦੀਦੀ ਨੇ ਰੱਖੜੀ 'ਤੇ ਪੰਜ ਸੌ ਰੁਪਏ ਭੇਜੇ ਸਨ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"আপনার ক্রেডিট কার্ডের লিমিট বাড়াতে হবে, কার্ডের পেছনের তিনটে সংখ্যা বলুন": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"আপনার ব্যক্তিগত ভিডিও আমাদের কাছে আছে, কুড়ি হাজার না দিলে সবাইকে পাঠিয়ে দেব": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"extortion",
+"blackmail"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"আপনার পেনশন বন্ধ হয়ে যাবে, লাইফ সার্টিফিকেটের জন্য আধার ওটিপি বলুন": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"secret_code",
+"account_block",
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"আপনার বিদ্যুৎ মিটার আপডেট করতে হবে, এই অ্যাপ ডাউনলোড করুন আর পাঁচ টাকা পাঠান": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"pay_now",
+"remote_access",
+"utility"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ট্রাফিক জরিমানা বাকি আছে, এই লিংক থেকে জমা দিন": {
+"lang": "bn",
+"label": "warn",
+"rules_score": 91,
+"rules_signs": [
+"pay_now",
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"গ্যাস ভর্তুকির জন্য আপনার অ্যাকাউন্ট নম্বর বলুন": {
+"lang": "bn",
+"label": "warn",
+"rules_score": 50,
+"rules_signs": [
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ভাই, বিকেলে ক্রিকেট খেলতে যাবি?": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"দিদি রাখিতে পাঁচশো টাকা পাঠিয়েছিল": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"உங்கள் கிரெடிட் கார்டு வரம்பை உயர்த்த வேண்டும், கார்டின் பின்புறம் உள்ள மூன்று எண்களைச் சொல்லுங்கள்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"உங்கள் தனிப்பட்ட வீடியோ எங்களிடம் உள்ளது, இருபதாயிரம் தராவிட்டால் எல்லோருக்கும் அனுப்புவோம்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"extortion",
+"blackmail"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"உங்கள் ஓய்வூதியம் நிறுத்தப்படும், வாழ்வுச் சான்றிதழுக்கு ஆதார் ஓடிபி சொல்லுங்கள்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"உங்கள் மின் மீட்டரைப் புதுப்பிக்க வேண்டும், இந்த செயலியைப் பதிவிறக்கி ஐந்து ரூபாய் அனுப்புங்கள்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"pay_now",
+"remote_access",
+"utility"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"போக்குவரத்து அபராதம் நிலுவையில் உள்ளது, இந்த லிங்க் மூலம் செலுத்துங்கள்": {
+"lang": "ta",
+"label": "warn",
+"rules_score": 91,
+"rules_signs": [
+"pay_now",
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"எரிவாயு மானியத்திற்கு உங்கள் கணக்கு எண்ணைச் சொல்லுங்கள்": {
+"lang": "ta",
+"label": "warn",
+"rules_score": 50,
+"rules_signs": [
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"தம்பி, மாலையில் கிரிக்கெட் விளையாட வருகிறாயா?": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"அக்கா ரக்ஷா பந்தனுக்கு ஐநூறு ரூபாய் அனுப்பினார்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"మీ క్రెడిట్ కార్డ్ పరిమితి పెంచాలి, కార్డ్ వెనుక ఉన్న మూడు అంకెలు చెప్పండి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"మీ ప్రైవేట్ వీడియో మా దగ్గర ఉంది, ఇరవై వేలు ఇవ్వకపోతే అందరికీ పంపుతాం": {
+"lang": "te",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"extortion",
+"blackmail"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"మీ పెన్షన్ ఆగిపోతుంది, లైఫ్ సర్టిఫికెట్ కోసం ఆధార్ ఓటీపీ చెప్పండి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"id_doc"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"మీ కరెంట్ మీటర్ అప్‌డేట్ చేయాలి, ఈ యాప్ డౌన్‌లోడ్ చేసి ఐదు రూపాయలు పంపండి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"pay_now",
+"remote_access",
+"utility"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ట్రాఫిక్ చలాన్ బకాయి ఉంది, ఈ లింక్ ద్వారా కట్టండి": {
+"lang": "te",
+"label": "warn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"గ్యాస్ సబ్సిడీ కోసం మీ ఖాతా నంబర్ చెప్పండి": {
+"lang": "te",
+"label": "warn",
+"rules_score": 50,
+"rules_signs": [
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"అన్నా, సాయంత్రం క్రికెట్ ఆడటానికి వస్తావా?": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"అక్క రాఖీకి ఐదు వందల రూపాయలు పంపింది": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್ ಮಿತಿ ಹೆಚ್ಚಿಸಬೇಕು, ಕಾರ್ಡ್ ಹಿಂದಿನ ಮೂರು ಅಂಕಿಗಳನ್ನು ಹೇಳಿ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ಖಾಸಗಿ ವಿಡಿಯೋ ನಮ್ಮ ಬಳಿ ಇದೆ, ಇಪ್ಪತ್ತು ಸಾವಿರ ಕೊಡದಿದ್ದರೆ ಎಲ್ಲರಿಗೂ ಕಳುಹಿಸುತ್ತೇವೆ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"extortion",
+"blackmail"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ಪಿಂಚಣಿ ನಿಂತುಹೋಗುತ್ತದೆ, ಜೀವನ ಪ್ರಮಾಣಪತ್ರಕ್ಕಾಗಿ ಆಧಾರ್ ಒಟಿಪಿ ಹೇಳಿ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"id_doc"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Investment",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ವಿದ್ಯುತ್ ಮೀಟರ್ ಅಪ್‌ಡೇಟ್ ಮಾಡಬೇಕು, ಈ ಆ್ಯಪ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಐದು ರೂಪಾಯಿ ಕಳುಹಿಸಿ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"pay_now",
+"remote_access",
+"utility"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"ಟ್ರಾಫಿಕ್ ದಂಡ ಬಾಕಿ ಇದೆ, ಈ ಲಿಂಕ್ ಮೂಲಕ ಪಾವತಿಸಿ": {
+"lang": "kn",
+"label": "warn",
+"rules_score": 91,
+"rules_signs": [
+"pay_now",
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ಗ್ಯಾಸ್ ಸಬ್ಸಿಡಿಗಾಗಿ ನಿಮ್ಮ ಖಾತೆ ಸಂಖ್ಯೆ ಹೇಳಿ": {
+"lang": "kn",
+"label": "warn",
+"rules_score": 50,
+"rules_signs": [
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ಅಣ್ಣ, ಸಂಜೆ ಕ್ರಿಕೆಟ್ ಆಡಲು ಬರುತ್ತೀಯಾ?": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಅಕ್ಕ ರಾಖಿಗೆ ಐನೂರು ರೂಪಾಯಿ ಕಳುಹಿಸಿದ್ದಳು": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ ക്രെഡിറ്റ് കാർഡ് പരിധി കൂട്ടണം, കാർഡിന്റെ പിന്നിലെ മൂന്ന് അക്കങ്ങൾ പറയൂ": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ സ്വകാര്യ വീഡിയോ ഞങ്ങളുടെ കയ്യിലുണ്ട്, ഇരുപതിനായിരം തന്നില്ലെങ്കിൽ എല്ലാവർക്കും അയയ്ക്കും": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 87,
+"rules_signs": [
+"extortion",
+"blackmail"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ പെൻഷൻ നിർത്തലാക്കും, ലൈഫ് സർട്ടിഫിക്കറ്റിനായി ആധാർ ഒടിപി പറയൂ": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"id_doc"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ വൈദ്യുതി മീറ്റർ അപ്ഡേറ്റ് ചെയ്യണം, ഈ ആപ്പ് ഡൗൺലോഡ് ചെയ്ത് അഞ്ച് രൂപ അയയ്ക്കൂ": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"pay_now",
+"remote_access",
+"utility"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ട്രാഫിക് പിഴ കുടിശ്ശികയുണ്ട്, ഈ ലിങ്ക് വഴി അടയ്ക്കൂ": {
+"lang": "ml",
+"label": "warn",
+"rules_score": 91,
+"rules_signs": [
+"pay_now",
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ഗ്യാസ് സബ്സിഡിക്കായി നിങ്ങളുടെ അക്കൗണ്ട് നമ്പർ പറയൂ": {
+"lang": "ml",
+"label": "warn",
+"rules_score": 50,
+"rules_signs": [
+"asks_number"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ചേട്ടാ, വൈകുന്നേരം ക്രിക്കറ്റ് കളിക്കാൻ വരുന്നോ?": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ചേച്ചി രാഖിക്ക് അഞ്ഞൂറ് രൂപ അയച്ചിരുന്നു": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"We need to increase your credit card limit, read me the three digits on the back of your card": {
+"lang": "en",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"asks_number"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Fake loan",
+"prompt": "9fce7d0809"
+},
+"We have your private video, pay 20,000 or we will send it to all your contacts": {
+"lang": "en",
+"label": "scam",
+"rules_score": 96,
+"rules_signs": [
+"extortion",
+"blackmail",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Blackmail",
+"prompt": "9fce7d0809"
+},
+"Your pension will stop, tell me the Aadhaar OTP for your life certificate": {
+"lang": "en",
+"label": "scam",
+"rules_score": 80,
+"rules_signs": [
+"secret_code",
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"Your electricity meter needs an update, download this app and send five rupees": {
+"lang": "en",
+"label": "scam",
+"rules_score": 94,
+"rules_signs": [
+"pay_now",
+"remote_access",
+"utility"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"You have a pending traffic challan, pay it through this link": {
+"lang": "en",
+"label": "warn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"For your gas subsidy, please confirm your account number": {
+"lang": "en",
+"label": "warn",
+"rules_score": 65,
+"rules_signs": [
+"asks_number",
+"details"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"Bro, coming for cricket this evening?": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Sis sent me 500 rupees for Rakhi": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Your HDFC credit card bill of 5000 is due tomorrow, please pay through the app": {
+"lang": "hinglish*",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Swiggy order aa raha hai, OTP ready rakhiye delivery ke time": {
+"lang": "hinglish*",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"OTP aaya hai, main abhi login kar raha hoon": {
+"lang": "hinglish*",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Main tumhe screen share karke presentation dikhata hoon": {
+"lang": "hinglish*",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Bank ki branch mein KYC update karwane jana hai kal": {
+"lang": "hinglish*",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"Police verification ke liye passport office jana hai": {
+"lang": "hinglish*",
+"label": "nowarn",
+"rules_score": 58,
+"rules_signs": [
+"authority",
+"parcel"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Mera Aadhaar card kho gaya, naya banwana hai": {
+"lang": "hinglish*",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Beta, khana kha liya? Papa kaise hain?": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Haan main bilkul fine hoon, tum batao": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Main turant aata hoon, gate pe ruko": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"Mera pin code 110001 hai, parcel yahin bhej dena": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 30,
+"rules_signs": [
+"parcel"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"Amazon delivery hai, aapka parcel gate pe rakh doon?": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 30,
+"rules_signs": [
+"parcel"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Maine tumhe 500 rupaye bhej diye hain, check kar lo": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Kal school ki fees jama karni hai, 5000 rupaye leke jana": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Doctor ne bola hai report kal aayegi": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Police station mein meri complaint ka kya hua?": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"Mummy main hostel pahunch gaya, kal call karta hoon": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Bhaiya meeting mein hoon, baad mein baat karte hain": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Electricity bill aa gaya hai, main online bhar dunga": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Mera beta kal exam dene ja raha hai": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Aapka beta school mein hai, chhutti 3 baje hogi": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Court ki tareekh kal hai, vakil se baat ho gayi": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"legal_threat"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hello sir, main Zomato se bol raha hoon, aapka order 10 minute mein pahunchega": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Maa, maine fees ke liye 2000 bhej diye": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Aapke account mein salary credit ho gayi hai": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hi, this is your dentist's office confirming your appointment tomorrow at 10": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"I will transfer the rent tomorrow morning": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"बेटा, खाना खा लिया?": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मैं दस मिनट में पहुँच रहा हूँ": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Bijli chali gayi thi, inverter chal raha hai": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Uncle ji ka accident hua tha par ab woh theek hain, ghar aa gaye": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Arre yaar traffic police ne challan kaat diya aaj": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Paise ki tension mat lo, main sambhal lunga": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"Kal bank jaake passbook update karwa lena": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Office mein naya inspector aaya hai audit ke liye": {
+"lang": "hinglish*",
+"label": "safe",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Swiggy wala bol raha hai OTP ready rakhna": {
+"lang": "hinglish",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hello ji, Swiggy wala bol raha hai OTP ready rakhna": {
+"lang": "hinglish",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Bank ne SMS bheja hai ki KYC update karwa lo branch jaake": {
+"lang": "hinglish",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"Sir, Bank ne SMS bheja hai ki KYC update karwa lo branch jaake": {
+"lang": "hinglish",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Office ke liye screen share karke dikhata hoon": {
+"lang": "hinglish",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Hello ji, Office ke liye screen share karke dikhata hoon": {
+"lang": "hinglish",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Pichhle saal aapke ladka ka accident hua tha, ab theek hai": {
+"lang": "hinglish",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Pichhle saal aapke beta ka accident hua tha, ab theek hai": {
+"lang": "hinglish",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"beta ne khana kha liya, ab so raha hai": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"beti ne khana kha liya, ab so raha hai": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"bhai ne khana kha liya, ab so raha hai": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Maine 2 lakh bhej diye the, mil gaye?": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Family emergency",
+"prompt": "9fce7d0809"
+},
+"Maine 25000 bhej diye the, mil gaye?": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"Maine 1 lakh rupay bhej diye the, mil gaye?": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Family emergency",
+"prompt": "9fce7d0809"
+},
+"Kal mandir chalenge, subah 7 baje": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hello ji, Kal mandir chalenge, subah 7 baje": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Mera pin code 400001 hai": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Sir, Mera pin code 400001 hai": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"Doodh wala aaj nahi aaya": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hello ji, Doodh wala aaj nahi aaya": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Bhaiya main meeting mein hoon, baad mein call karta hoon": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Sir, Bhaiya main meeting mein hoon, baad mein call karta hoon": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Bijli chali gayi thi, ab aa gayi": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hello ji, Bijli chali gayi thi, ab aa gayi": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Aaj traffic bahut hai, der ho jayegi": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Sir, Aaj traffic bahut hai, der ho jayegi": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Mummy ki dawai le aana": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hello ji, Mummy ki dawai le aana": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Kal bank jaana hai passbook update karwane": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Sir, Kal bank jaana hai passbook update karwane": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"डिलीवरी के समय ओटीपी तैयार रखिए": {
+"lang": "hi",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"नमस्ते, डिलीवरी के समय ओटीपी तैयार रखिए": {
+"lang": "hi",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"बैंक ने कहा है कि शाखा में जाकर केवाईसी करवा लीजिए": {
+"lang": "hi",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"हैलो, बैंक ने कहा है कि शाखा में जाकर केवाईसी करवा लीजिए": {
+"lang": "hi",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"मीटिंग में स्क्रीन शेयर करके दिखाता हूँ": {
+"lang": "hi",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"नमस्ते, मीटिंग में स्क्रीन शेयर करके दिखाता हूँ": {
+"lang": "hi",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"पिछले साल आपके बेटा का एक्सीडेंट हुआ था, अब वह ठीक है": {
+"lang": "hi",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"पिछले साल आपके बेटी का एक्सीडेंट हुआ था, अब वह ठीक है": {
+"lang": "hi",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"बेटा ने खाना खा लिया, अब सो रहा है": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"बेटी ने खाना खा लिया, अब सो रहा है": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"भाई ने खाना खा लिया, अब सो रहा है": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मैंने दो लाख रुपये भेज दिए थे, मिल गए?": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"मैंने 25000 रुपये भेज दिए थे, मिल गए?": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"मैंने एक लाख रुपये भेज दिए थे, मिल गए?": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"कल सुबह मंदिर चलेंगे": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"नमस्ते, कल सुबह मंदिर चलेंगे": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मेरा पिन कोड 110001 है": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"हैलो, मेरा पिन कोड 110001 है": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"आज दूध वाला नहीं आया": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"नमस्ते, आज दूध वाला नहीं आया": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मैं मीटिंग में हूँ, बाद में फोन करता हूँ": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"हैलो, मैं मीटिंग में हूँ, बाद में फोन करता हूँ": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"बिजली चली गई थी, अब आ गई": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"नमस्ते, बिजली चली गई थी, अब आ गई": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"आज बहुत ट्रैफिक है, देर हो जाएगी": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"हैलो, आज बहुत ट्रैफिक है, देर हो जाएगी": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"माँ की दवाई ले आना": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"नमस्ते, माँ की दवाई ले आना": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"परीक्षा का परिणाम कल आएगा": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"हैलो, परीक्षा का परिणाम कल आएगा": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"डिलिव्हरीच्या वेळी ओटीपी तयार ठेवा": {
+"lang": "mr",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"नमस्कार, डिलिव्हरीच्या वेळी ओटीपी तयार ठेवा": {
+"lang": "mr",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"बँकेच्या शाखेत जाऊन केवायसी करून घ्या": {
+"lang": "mr",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"हॅलो, बँकेच्या शाखेत जाऊन केवायसी करून घ्या": {
+"lang": "mr",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मीटिंगमध्ये स्क्रीन शेअर करून दाखवतो": {
+"lang": "mr",
+"label": "nowarn",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"नमस्कार, मीटिंगमध्ये स्क्रीन शेअर करून दाखवतो": {
+"lang": "mr",
+"label": "nowarn",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"तुमचा मुलगा मागच्या वर्षी अपघातात जखमी झाला होता, आता बरा आहे": {
+"lang": "mr",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"तुमचा मुलगी मागच्या वर्षी अपघातात जखमी झाला होता, आता बरा आहे": {
+"lang": "mr",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मुलगा जेवला आणि आता झोपला आहे": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मुलगी जेवला आणि आता झोपला आहे": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"भाऊ जेवला आणि आता झोपला आहे": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मी दोन लाख रुपये पाठवले होते, मिळाले का?": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"मी 25000 रुपये पाठवले होते, मिळाले का?": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"मी एक लाख रुपये पाठवले होते, मिळाले का?": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"उद्या सकाळी मंदिरात जाऊया": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"नमस्कार, उद्या सकाळी मंदिरात जाऊया": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"माझा पिन कोड 411001 आहे": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"हॅलो, माझा पिन कोड 411001 आहे": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"आज दूधवाला आला नाही": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"नमस्कार, आज दूधवाला आला नाही": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मी मीटिंगमध्ये आहे, नंतर फोन करतो": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"हॅलो, मी मीटिंगमध्ये आहे, नंतर फोन करतो": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"वीज गेली होती, आता आली": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"नमस्कार, वीज गेली होती, आता आली": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"आज खूप ट्रॅफिक आहे, उशीर होईल": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"हॅलो, आज खूप ट्रॅफिक आहे, उशीर होईल": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"आईचे औषध घेऊन ये": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"नमस्कार, आईचे औषध घेऊन ये": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"परीक्षेचा निकाल उद्या लागेल": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"हॅलो, परीक्षेचा निकाल उद्या लागेल": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ડિલિવરી વખતે ઓટીપી તૈયાર રાખજો": {
+"lang": "gu",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"નમસ્તે, ડિલિવરી વખતે ઓટીપી તૈયાર રાખજો": {
+"lang": "gu",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"બેંકની શાખામાં જઈને કેવાયસી કરાવી લો": {
+"lang": "gu",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"હેલો, બેંકની શાખામાં જઈને કેવાયસી કરાવી લો": {
+"lang": "gu",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"મીટિંગમાં સ્ક્રીન શેર કરીને બતાવું છું": {
+"lang": "gu",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"નમસ્તે, મીટિંગમાં સ્ક્રીન શેર કરીને બતાવું છું": {
+"lang": "gu",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ગયા વર્ષે તમારો દીકરો અકસ્માતમાં ઘાયલ થયો હતો, હવે સારો છે": {
+"lang": "gu",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ગયા વર્ષે તમારો દીકરી અકસ્માતમાં ઘાયલ થયો હતો, હવે સારો છે": {
+"lang": "gu",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"દીકરો જમીને સૂઈ ગયો છે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"દીકરી જમીને સૂઈ ગયો છે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ભાઈ જમીને સૂઈ ગયો છે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"મેં બે લાખ રૂપિયા મોકલ્યા હતા, મળી ગયા?": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"મેં 25000 રૂપિયા મોકલ્યા હતા, મળી ગયા?": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"મેં એક લાખ રૂપિયા મોકલ્યા હતા, મળી ગયા?": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"કાલે સવારે મંદિરે જઈશું": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"નમસ્તે, કાલે સવારે મંદિરે જઈશું": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"મારો પિન કોડ 380001 છે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"હેલો, મારો પિન કોડ 380001 છે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"આજે દૂધવાળો આવ્યો નથી": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"નમસ્તે, આજે દૂધવાળો આવ્યો નથી": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"હું મીટિંગમાં છું, પછી ફોન કરું છું": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"હેલો, હું મીટિંગમાં છું, પછી ફોન કરું છું": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"વીજળી ગઈ હતી, હવે આવી ગઈ": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Electricity or bill",
+"prompt": "9fce7d0809"
+},
+"નમસ્તે, વીજળી ગઈ હતી, હવે આવી ગઈ": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"આજે બહુ ટ્રાફિક છે, મોડું થશે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"હેલો, આજે બહુ ટ્રાફિક છે, મોડું થશે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"મમ્મીની દવા લેતો આવજે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"નમસ્તે, મમ્મીની દવા લેતો આવજે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"પરીક્ષાનું પરિણામ કાલે આવશે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"હેલો, પરીક્ષાનું પરિણામ કાલે આવશે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਡਿਲੀਵਰੀ ਵੇਲੇ ਓਟੀਪੀ ਤਿਆਰ ਰੱਖਣਾ": {
+"lang": "pa",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਡਿਲੀਵਰੀ ਵੇਲੇ ਓਟੀਪੀ ਤਿਆਰ ਰੱਖਣਾ": {
+"lang": "pa",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਬੈਂਕ ਦੀ ਬ੍ਰਾਂਚ ਜਾ ਕੇ ਕੇਵਾਈਸੀ ਕਰਵਾ ਲਓ": {
+"lang": "pa",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਹੈਲੋ, ਬੈਂਕ ਦੀ ਬ੍ਰਾਂਚ ਜਾ ਕੇ ਕੇਵਾਈਸੀ ਕਰਵਾ ਲਓ": {
+"lang": "pa",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਮੀਟਿੰਗ ਵਿੱਚ ਸਕ੍ਰੀਨ ਸ਼ੇਅਰ ਕਰਕੇ ਦਿਖਾਉਂਦਾ ਹਾਂ": {
+"lang": "pa",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਮੀਟਿੰਗ ਵਿੱਚ ਸਕ੍ਰੀਨ ਸ਼ੇਅਰ ਕਰਕੇ ਦਿਖਾਉਂਦਾ ਹਾਂ": {
+"lang": "pa",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ਪਿਛਲੇ ਸਾਲ ਤੁਹਾਡਾ ਪੁੱਤਰ ਹਾਦਸੇ ਵਿੱਚ ਜ਼ਖਮੀ ਹੋਇਆ ਸੀ, ਹੁਣ ਠੀਕ ਹੈ": {
+"lang": "pa",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਪਿਛਲੇ ਸਾਲ ਤੁਹਾਡਾ ਧੀ ਹਾਦਸੇ ਵਿੱਚ ਜ਼ਖਮੀ ਹੋਇਆ ਸੀ, ਹੁਣ ਠੀਕ ਹੈ": {
+"lang": "pa",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਪੁੱਤਰ ਰੋਟੀ ਖਾ ਕੇ ਸੌਂ ਗਿਆ ਹੈ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਧੀ ਰੋਟੀ ਖਾ ਕੇ ਸੌਂ ਗਿਆ ਹੈ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਭਰਾ ਰੋਟੀ ਖਾ ਕੇ ਸੌਂ ਗਿਆ ਹੈ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਮੈਂ ਦੋ ਲੱਖ ਰੁਪਏ ਭੇਜ ਦਿੱਤੇ ਸਨ, ਮਿਲ ਗਏ?": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ਮੈਂ 25000 ਰੁਪਏ ਭੇਜ ਦਿੱਤੇ ਸਨ, ਮਿਲ ਗਏ?": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ਮੈਂ ਇੱਕ ਲੱਖ ਰੁਪਏ ਭੇਜ ਦਿੱਤੇ ਸਨ, ਮਿਲ ਗਏ?": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ਕੱਲ੍ਹ ਸਵੇਰੇ ਗੁਰਦੁਆਰੇ ਚੱਲਾਂਗੇ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਕੱਲ੍ਹ ਸਵੇਰੇ ਗੁਰਦੁਆਰੇ ਚੱਲਾਂਗੇ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਮੇਰਾ ਪਿੰਨ ਕੋਡ 141001 ਹੈ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਹੈਲੋ, ਮੇਰਾ ਪਿੰਨ ਕੋਡ 141001 ਹੈ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਅੱਜ ਦੁੱਧ ਵਾਲਾ ਨਹੀਂ ਆਇਆ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਅੱਜ ਦੁੱਧ ਵਾਲਾ ਨਹੀਂ ਆਇਆ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਮੈਂ ਮੀਟਿੰਗ ਵਿੱਚ ਹਾਂ, ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਦਾ ਹਾਂ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਹੈਲੋ, ਮੈਂ ਮੀਟਿੰਗ ਵਿੱਚ ਹਾਂ, ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਦਾ ਹਾਂ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਬਿਜਲੀ ਚਲੀ ਗਈ ਸੀ, ਹੁਣ ਆ ਗਈ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਬਿਜਲੀ ਚਲੀ ਗਈ ਸੀ, ਹੁਣ ਆ ਗਈ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਅੱਜ ਬਹੁਤ ਟ੍ਰੈਫਿਕ ਹੈ, ਦੇਰ ਹੋ ਜਾਵੇਗੀ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਹੈਲੋ, ਅੱਜ ਬਹੁਤ ਟ੍ਰੈਫਿਕ ਹੈ, ਦੇਰ ਹੋ ਜਾਵੇਗੀ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਮੰਮੀ ਦੀ ਦਵਾਈ ਲੈ ਆਉਣਾ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਮੰਮੀ ਦੀ ਦਵਾਈ ਲੈ ਆਉਣਾ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਇਮਤਿਹਾਨ ਦਾ ਨਤੀਜਾ ਕੱਲ੍ਹ ਆਵੇਗਾ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਹੈਲੋ, ਇਮਤਿਹਾਨ ਦਾ ਨਤੀਜਾ ਕੱਲ੍ਹ ਆਵੇਗਾ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ডেলিভারির সময় ওটিপি তৈরি রাখবেন": {
+"lang": "bn",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"নমস্কার, ডেলিভারির সময় ওটিপি তৈরি রাখবেন": {
+"lang": "bn",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ব্যাংকের শাখায় গিয়ে কেওয়াইসি করিয়ে নিন": {
+"lang": "bn",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"হ্যালো, ব্যাংকের শাখায় গিয়ে কেওয়াইসি করিয়ে নিন": {
+"lang": "bn",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"মিটিংয়ে স্ক্রিন শেয়ার করে দেখাচ্ছি": {
+"lang": "bn",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"নমস্কার, মিটিংয়ে স্ক্রিন শেয়ার করে দেখাচ্ছি": {
+"lang": "bn",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"গত বছর আপনার ছেলে দুর্ঘটনায় আহত হয়েছিল, এখন ভালো আছে": {
+"lang": "bn",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"গত বছর আপনার মেয়ে দুর্ঘটনায় আহত হয়েছিল, এখন ভালো আছে": {
+"lang": "bn",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ছেলে খেয়ে ঘুমিয়ে পড়েছে": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"মেয়ে খেয়ে ঘুমিয়ে পড়েছে": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ভাই খেয়ে ঘুমিয়ে পড়েছে": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"আমি দুই লাখ টাকা পাঠিয়েছিলাম, পেয়েছ?": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"আমি 25000 টাকা পাঠিয়েছিলাম, পেয়েছ?": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"আমি এক লাখ টাকা পাঠিয়েছিলাম, পেয়েছ?": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"কাল সকালে মন্দিরে যাব": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"নমস্কার, কাল সকালে মন্দিরে যাব": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"আমার পিন কোড 700001": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"হ্যালো, আমার পিন কোড 700001": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"আজ দুধওয়ালা আসেনি": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"নমস্কার, আজ দুধওয়ালা আসেনি": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"আমি মিটিংয়ে আছি, পরে ফোন করছি": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"হ্যালো, আমি মিটিংয়ে আছি, পরে ফোন করছি": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"বিদ্যুৎ চলে গিয়েছিল, এখন এসেছে": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"নমস্কার, বিদ্যুৎ চলে গিয়েছিল, এখন এসেছে": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"আজ খুব জ্যাম, দেরি হবে": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"হ্যালো, আজ খুব জ্যাম, দেরি হবে": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"মায়ের ওষুধ নিয়ে এসো": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"নমস্কার, মায়ের ওষুধ নিয়ে এসো": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"পরীক্ষার ফল কাল বেরোবে": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"হ্যালো, পরীক্ষার ফল কাল বেরোবে": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"டெலிவரி நேரத்தில் ஓடிபி தயாராக வைத்திருங்கள்": {
+"lang": "ta",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"வணக்கம், டெலிவரி நேரத்தில் ஓடிபி தயாராக வைத்திருங்கள்": {
+"lang": "ta",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"வங்கிக் கிளைக்குச் சென்று கேஒய்சி செய்து கொள்ளுங்கள்": {
+"lang": "ta",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ஹலோ, வங்கிக் கிளைக்குச் சென்று கேஒய்சி செய்து கொள்ளுங்கள்": {
+"lang": "ta",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"கூட்டத்தில் ஸ்கிரீன் ஷேர் செய்து காட்டுகிறேன்": {
+"lang": "ta",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"வணக்கம், கூட்டத்தில் ஸ்கிரீன் ஷேர் செய்து காட்டுகிறேன்": {
+"lang": "ta",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"கடந்த ஆண்டு உங்கள் மகன் விபத்தில் காயமடைந்தார், இப்போது நலமாக இருக்கிறார்": {
+"lang": "ta",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"கடந்த ஆண்டு உங்கள் மகள் விபத்தில் காயமடைந்தார், இப்போது நலமாக இருக்கிறார்": {
+"lang": "ta",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"மகன் சாப்பிட்டு தூங்கிவிட்டார்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"மகள் சாப்பிட்டு தூங்கிவிட்டார்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"தம்பி சாப்பிட்டு தூங்கிவிட்டார்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"நான் இரண்டு லட்சம் ரூபாய் அனுப்பினேன், கிடைத்ததா?": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"நான் 25000 ரூபாய் அனுப்பினேன், கிடைத்ததா?": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"நான் ஒரு லட்சம் ரூபாய் அனுப்பினேன், கிடைத்ததா?": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"நாளை காலை கோவிலுக்குப் போவோம்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"வணக்கம், நாளை காலை கோவிலுக்குப் போவோம்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"என் பின் கோடு 600001": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ஹலோ, என் பின் கோடு 600001": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"இன்று பால்காரர் வரவில்லை": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"வணக்கம், இன்று பால்காரர் வரவில்லை": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"நான் மீட்டிங்கில் இருக்கிறேன், பிறகு அழைக்கிறேன்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ஹலோ, நான் மீட்டிங்கில் இருக்கிறேன், பிறகு அழைக்கிறேன்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"மின்சாரம் போயிருந்தது, இப்போது வந்துவிட்டது": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"வணக்கம், மின்சாரம் போயிருந்தது, இப்போது வந்துவிட்டது": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"இன்று நிறைய டிராபிக், தாமதமாகும்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ஹலோ, இன்று நிறைய டிராபிக், தாமதமாகும்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"அம்மாவுக்கு மருந்து வாங்கி வா": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"வணக்கம், அம்மாவுக்கு மருந்து வாங்கி வா": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"பின்னர் பேசலாம், இப்போது வேலையில் இருக்கிறேன்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ஹலோ, பின்னர் பேசலாம், இப்போது வேலையில் இருக்கிறேன்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"డెలివరీ సమయంలో ఓటీపీ సిద్ధంగా ఉంచండి": {
+"lang": "te",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"నమస్కారం, డెలివరీ సమయంలో ఓటీపీ సిద్ధంగా ఉంచండి": {
+"lang": "te",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"బ్యాంక్ బ్రాంచ్‌కి వెళ్లి కేవైసీ చేయించుకోండి": {
+"lang": "te",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"హలో, బ్యాంక్ బ్రాంచ్‌కి వెళ్లి కేవైసీ చేయించుకోండి": {
+"lang": "te",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"మీటింగ్‌లో స్క్రీన్ షేర్ చేసి చూపిస్తాను": {
+"lang": "te",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"నమస్కారం, మీటింగ్‌లో స్క్రీన్ షేర్ చేసి చూపిస్తాను": {
+"lang": "te",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"గత సంవత్సరం మీ కొడుకు ప్రమాదంలో గాయపడ్డారు, ఇప్పుడు బాగున్నారు": {
+"lang": "te",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"గత సంవత్సరం మీ కూతురు ప్రమాదంలో గాయపడ్డారు, ఇప్పుడు బాగున్నారు": {
+"lang": "te",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"కొడుకు భోజనం చేసి పడుకున్నాడు": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"కూతురు భోజనం చేసి పడుకున్నాడు": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"తమ్ముడు భోజనం చేసి పడుకున్నాడు": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"నేను రెండు లక్షల రూపాయలు పంపాను, అందాయా?": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"నేను 25000 రూపాయలు పంపాను, అందాయా?": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"నేను ఒక లక్ష రూపాయలు పంపాను, అందాయా?": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"రేపు ఉదయం గుడికి వెళ్దాం": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"నమస్కారం, రేపు ఉదయం గుడికి వెళ్దాం": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"నా పిన్ కోడ్ 500001": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"హలో, నా పిన్ కోడ్ 500001": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ఈరోజు పాలవాడు రాలేదు": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"నమస్కారం, ఈరోజు పాలవాడు రాలేదు": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"నేను మీటింగ్‌లో ఉన్నాను, తర్వాత ఫోన్ చేస్తాను": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"హలో, నేను మీటింగ్‌లో ఉన్నాను, తర్వాత ఫోన్ చేస్తాను": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"కరెంట్ పోయింది, ఇప్పుడు వచ్చింది": {
+"lang": "te",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"నమస్కారం, కరెంట్ పోయింది, ఇప్పుడు వచ్చింది": {
+"lang": "te",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ఈరోజు చాలా ట్రాఫిక్, ఆలస్యం అవుతుంది": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"హలో, ఈరోజు చాలా ట్రాఫిక్, ఆలస్యం అవుతుంది": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"అమ్మకి మందులు తీసుకురా": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"నమస్కారం, అమ్మకి మందులు తీసుకురా": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"పరీక్ష ఫలితాలు రేపు వస్తాయి": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"హలో, పరీక్ష ఫలితాలు రేపు వస్తాయి": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಡೆಲಿವರಿ ಸಮಯದಲ್ಲಿ ಒಟಿಪಿ ಸಿದ್ಧವಾಗಿಡಿ": {
+"lang": "kn",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನಮಸ್ಕಾರ, ಡೆಲಿವರಿ ಸಮಯದಲ್ಲಿ ಒಟಿಪಿ ಸಿದ್ಧವಾಗಿಡಿ": {
+"lang": "kn",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಬ್ಯಾಂಕ್ ಶಾಖೆಗೆ ಹೋಗಿ ಕೆವೈಸಿ ಮಾಡಿಸಿಕೊಳ್ಳಿ": {
+"lang": "kn",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"ಹಲೋ, ಬ್ಯಾಂಕ್ ಶಾಖೆಗೆ ಹೋಗಿ ಕೆವೈಸಿ ಮಾಡಿಸಿಕೊಳ್ಳಿ": {
+"lang": "kn",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"ಮೀಟಿಂಗ್‌ನಲ್ಲಿ ಸ್ಕ್ರೀನ್ ಶೇರ್ ಮಾಡಿ ತೋರಿಸುತ್ತೇನೆ": {
+"lang": "kn",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ನಮಸ್ಕಾರ, ಮೀಟಿಂಗ್‌ನಲ್ಲಿ ಸ್ಕ್ರೀನ್ ಶೇರ್ ಮಾಡಿ ತೋರಿಸುತ್ತೇನೆ": {
+"lang": "kn",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ಕಳೆದ ವರ್ಷ ನಿಮ್ಮ ಮಗ ಅಪಘಾತದಲ್ಲಿ ಗಾಯಗೊಂಡಿದ್ದರು, ಈಗ ಚೆನ್ನಾಗಿದ್ದಾರೆ": {
+"lang": "kn",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಕಳೆದ ವರ್ಷ ನಿಮ್ಮ ಮಗಳು ಅಪಘಾತದಲ್ಲಿ ಗಾಯಗೊಂಡಿದ್ದರು, ಈಗ ಚೆನ್ನಾಗಿದ್ದಾರೆ": {
+"lang": "kn",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಮಗ ಊಟ ಮಾಡಿ ಮಲಗಿದ್ದಾನೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಮಗಳು ಊಟ ಮಾಡಿ ಮಲಗಿದ್ದಾನೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ತಮ್ಮ ಊಟ ಮಾಡಿ ಮಲಗಿದ್ದಾನೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನಾನು ಎರಡು ಲಕ್ಷ ರೂಪಾಯಿ ಕಳುಹಿಸಿದ್ದೆ, ಸಿಕ್ಕಿತಾ?": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ನಾನು 25000 ರೂಪಾಯಿ ಕಳುಹಿಸಿದ್ದೆ, ಸಿಕ್ಕಿತಾ?": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ನಾನು ಒಂದು ಲಕ್ಷ ರೂಪಾಯಿ ಕಳುಹಿಸಿದ್ದೆ, ಸಿಕ್ಕಿತಾ?": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ನಾಳೆ ಬೆಳಿಗ್ಗೆ ದೇವಸ್ಥಾನಕ್ಕೆ ಹೋಗೋಣ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನಮಸ್ಕಾರ, ನಾಳೆ ಬೆಳಿಗ್ಗೆ ದೇವಸ್ಥಾನಕ್ಕೆ ಹೋಗೋಣ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನನ್ನ ಪಿನ್ ಕೋಡ್ 560001": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ಹಲೋ, ನನ್ನ ಪಿನ್ ಕೋಡ್ 560001": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ಇಂದು ಹಾಲಿನವನು ಬರಲಿಲ್ಲ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನಮಸ್ಕಾರ, ಇಂದು ಹಾಲಿನವನು ಬರಲಿಲ್ಲ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನಾನು ಮೀಟಿಂಗ್‌ನಲ್ಲಿದ್ದೇನೆ, ನಂತರ ಕರೆ ಮಾಡುತ್ತೇನೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಹಲೋ, ನಾನು ಮೀಟಿಂಗ್‌ನಲ್ಲಿದ್ದೇನೆ, ನಂತರ ಕರೆ ಮಾಡುತ್ತೇನೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಕರೆಂಟ್ ಹೋಗಿತ್ತು, ಈಗ ಬಂದಿದೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನಮಸ್ಕಾರ, ಕರೆಂಟ್ ಹೋಗಿತ್ತು, ಈಗ ಬಂದಿದೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಇಂದು ತುಂಬಾ ಟ್ರಾಫಿಕ್, ತಡವಾಗುತ್ತದೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಹಲೋ, ಇಂದು ತುಂಬಾ ಟ್ರಾಫಿಕ್, ತಡವಾಗುತ್ತದೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಅಮ್ಮನಿಗೆ ಔಷಧಿ ತೆಗೆದುಕೊಂಡು ಬಾ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನಮಸ್ಕಾರ, ಅಮ್ಮನಿಗೆ ಔಷಧಿ ತೆಗೆದುಕೊಂಡು ಬಾ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಪರೀಕ್ಷೆಯ ಫಲಿತಾಂಶ ನಾಳೆ ಬರುತ್ತದೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ಹಲೋ, ಪರೀಕ್ಷೆಯ ಫಲಿತಾಂಶ ನಾಳೆ ಬರುತ್ತದೆ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ഡെലിവറി സമയത്ത് ഒടിപി തയ്യാറാക്കി വെക്കൂ": {
+"lang": "ml",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"നമസ്കാരം, ഡെലിവറി സമയത്ത് ഒടിപി തയ്യാറാക്കി വെക്കൂ": {
+"lang": "ml",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ബാങ്ക് ശാഖയിൽ പോയി കെവൈസി ചെയ്യിക്കൂ": {
+"lang": "ml",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ഹലോ, ബാങ്ക് ശാഖയിൽ പോയി കെവൈസി ചെയ്യിക്കൂ": {
+"lang": "ml",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"മീറ്റിംഗിൽ സ്ക്രീൻ ഷെയർ ചെയ്ത് കാണിക്കാം": {
+"lang": "ml",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"നമസ്കാരം, മീറ്റിംഗിൽ സ്ക്രീൻ ഷെയർ ചെയ്ത് കാണിക്കാം": {
+"lang": "ml",
+"label": "nowarn",
+"rules_score": 55,
+"rules_signs": [
+"remote_access"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"കഴിഞ്ഞ വർഷം നിങ്ങളുടെ മകൻ അപകടത്തിൽ പരിക്കേറ്റിരുന്നു, ഇപ്പോൾ സുഖമാണ്": {
+"lang": "ml",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"കഴിഞ്ഞ വർഷം നിങ്ങളുടെ മകൾ അപകടത്തിൽ പരിക്കേറ്റിരുന്നു, ഇപ്പോൾ സുഖമാണ്": {
+"lang": "ml",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"മകൻ ഭക്ഷണം കഴിച്ച് ഉറങ്ങി": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"മകൾ ഭക്ഷണം കഴിച്ച് ഉറങ്ങി": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"സഹോദരൻ ഭക്ഷണം കഴിച്ച് ഉറങ്ങി": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ഞാൻ രണ്ട് ലക്ഷം രൂപ അയച്ചിരുന്നു, കിട്ടിയോ?": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ഞാൻ 25000 രൂപ അയച്ചിരുന്നു, കിട്ടിയോ?": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ഞാൻ ഒരു ലക്ഷം രൂപ അയച്ചിരുന്നു, കിട്ടിയോ?": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"നാളെ രാവിലെ അമ്പലത്തിൽ പോകാം": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"നമസ്കാരം, നാളെ രാവിലെ അമ്പലത്തിൽ പോകാം": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"എന്റെ പിൻ കോഡ് 682001": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ഹലോ, എന്റെ പിൻ കോഡ് 682001": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"ഇന്ന് പാൽക്കാരൻ വന്നില്ല": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"നമസ്കാരം, ഇന്ന് പാൽക്കാരൻ വന്നില്ല": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ഞാൻ മീറ്റിംഗിലാണ്, പിന്നെ വിളിക്കാം": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ഹലോ, ഞാൻ മീറ്റിംഗിലാണ്, പിന്നെ വിളിക്കാം": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"കറന്റ് പോയിരുന്നു, ഇപ്പോൾ വന്നു": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"നമസ്കാരം, കറന്റ് പോയിരുന്നു, ഇപ്പോൾ വന്നു": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 35,
+"rules_signs": [
+"utility"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ഇന്ന് നല്ല ട്രാഫിക്കാണ്, വൈകും": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ഹലോ, ഇന്ന് നല്ല ട്രാഫിക്കാണ്, വൈകും": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"അമ്മയ്ക്ക് മരുന്ന് വാങ്ങി വരണം": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"നമസ്കാരം, അമ്മയ്ക്ക് മരുന്ന് വാങ്ങി വരണം": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"പരീക്ഷാഫലം നാളെ വരും": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ഹലോ, പരീക്ഷാഫലം നാളെ വരും": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Keep the OTP ready when the delivery arrives": {
+"lang": "en",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hello, Keep the OTP ready when the delivery arrives": {
+"lang": "en",
+"label": "nowarn",
+"rules_score": 60,
+"rules_signs": [
+"secret_code"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Visit the bank branch to complete your KYC": {
+"lang": "en",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Good morning, Visit the bank branch to complete your KYC": {
+"lang": "en",
+"label": "nowarn",
+"rules_score": 25,
+"rules_signs": [
+"id_doc"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"Let me share my screen to show the presentation": {
+"lang": "en",
+"label": "nowarn",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Hello, Let me share my screen to show the presentation": {
+"lang": "en",
+"label": "nowarn",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Your son had an accident last year but is fine now": {
+"lang": "en",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Your daughter had an accident last year but is fine now": {
+"lang": "en",
+"label": "nowarn",
+"rules_score": 50,
+"rules_signs": [
+"family"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Your son has finished dinner and gone to sleep": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Your daughter has finished dinner and gone to sleep": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Your brother has finished dinner and gone to sleep": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"I sent you 2 lakh rupees yesterday, did you get it?": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"I sent you Rs 25,000 yesterday, did you get it?": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"I sent you one lakh rupees yesterday, did you get it?": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Let's go to the temple tomorrow morning": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hello, Let's go to the temple tomorrow morning": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"My pin code is 110001": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Good morning, My pin code is 110001": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"The milkman didn't come today": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hello, The milkman didn't come today": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"I'm in a meeting, I'll call you later": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Good morning, I'm in a meeting, I'll call you later": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"The power went out but it's back now": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hello, The power went out but it's back now": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Traffic is bad today, I'll be late": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Good morning, Traffic is bad today, I'll be late": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Please bring mom's medicine": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Hello, Please bring mom's medicine": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"The exam results come out tomorrow": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Good morning, The exam results come out tomorrow": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"Main tumhara manager bol raha hoon, meeting mein hoon, 5 Google Play gift card khareed ke unke code bhej do": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 35,
+"rules_signs": [
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Aapke foreign dost ka gift customs mein ruka hai, clearance ke liye 25000 jama karna padega": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"YouTube video like karke paise kamao, task unlock karne ke liye pehle 1000 deposit karo": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Aapka SIM 5G mein upgrade hoga, abhi jo code aaya hai woh bata do": {
+"lang": "hinglish",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Main aapke bank se bol raha hoon, aapke credit card ke baare mein baat karni hai": {
+"lang": "hinglish",
+"label": "warn",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Digital arrest",
+"prompt": "9fce7d0809"
+},
+"Doctor ne report dekh li, sab normal hai": {
+"lang": "hinglish",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मैं तुम्हारा मैनेजर बोल रहा हूँ, मीटिंग में हूँ, पाँच गूगल प्ले गिफ्ट कार्ड खरीदकर उनके कोड भेज दो": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"आपके विदेशी दोस्त का तोहफ़ा कस्टम में रुका है, क्लियरेंस के लिए पच्चीस हज़ार जमा करने होंगे": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"यूट्यूब वीडियो लाइक करके पैसे कमाइए, टास्क खोलने के लिए पहले एक हज़ार जमा कीजिए": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Prize or lottery",
+"prompt": "9fce7d0809"
+},
+"आपका सिम 5G में बदलेगा, अभी जो कोड आया है वह बता दीजिए": {
+"lang": "hi",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"मैं आपके बैंक से बोल रहा हूँ, आपके क्रेडिट कार्ड के बारे में बात करनी है": {
+"lang": "hi",
+"label": "warn",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"डॉक्टर ने रिपोर्ट देख ली, सब सामान्य है": {
+"lang": "hi",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"मी तुमचा मॅनेजर बोलतोय, मीटिंगमध्ये आहे, पाच गुगल प्ले गिफ्ट कार्ड घेऊन त्यांचे कोड पाठव": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"तुमच्या परदेशातील मित्राची भेट कस्टममध्ये अडकली आहे, क्लिअरन्ससाठी पंचवीस हजार भरावे लागतील": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"यूट्यूब व्हिडिओ लाईक करून पैसे कमवा, टास्क उघडण्यासाठी आधी एक हजार भरा": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"तुमचे सिम 5G मध्ये बदलेल, आत्ता आलेला कोड सांगा": {
+"lang": "mr",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"मी तुमच्या बँकेतून बोलतोय, तुमच्या क्रेडिट कार्डबद्दल बोलायचे आहे": {
+"lang": "mr",
+"label": "warn",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"डॉक्टरांनी रिपोर्ट पाहिला, सगळं ठीक आहे": {
+"lang": "mr",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"હું તમારો મેનેજર બોલું છું, મીટિંગમાં છું, પાંચ ગૂગલ પ્લે ગિફ્ટ કાર્ડ ખરીદીને તેના કોડ મોકલી દે": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"તમારા વિદેશી મિત્રની ભેટ કસ્ટમમાં અટકી છે, ક્લિયરન્સ માટે પચીસ હજાર ભરવા પડશે": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"યુટ્યુબ વિડિયો લાઇક કરીને પૈસા કમાઓ, ટાસ્ક ખોલવા માટે પહેલા એક હજાર જમા કરો": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"તમારું સિમ 5G માં બદલાશે, હમણાં જે કોડ આવ્યો તે કહો": {
+"lang": "gu",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"હું તમારી બેંકમાંથી બોલું છું, તમારા ક્રેડિટ કાર્ડ વિશે વાત કરવી છે": {
+"lang": "gu",
+"label": "warn",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ડૉક્ટરે રિપોર્ટ જોઈ લીધો, બધું સામાન્ય છે": {
+"lang": "gu",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ਮੈਂ ਤੁਹਾਡਾ ਮੈਨੇਜਰ ਬੋਲ ਰਿਹਾ ਹਾਂ, ਮੀਟਿੰਗ ਵਿੱਚ ਹਾਂ, ਪੰਜ ਗੂਗਲ ਪਲੇ ਗਿਫਟ ਕਾਰਡ ਖਰੀਦ ਕੇ ਉਨ੍ਹਾਂ ਦੇ ਕੋਡ ਭੇਜੋ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡੇ ਵਿਦੇਸ਼ੀ ਦੋਸਤ ਦਾ ਤੋਹਫ਼ਾ ਕਸਟਮ ਵਿੱਚ ਰੁਕਿਆ ਹੈ, ਕਲੀਅਰੈਂਸ ਲਈ ਪੱਚੀ ਹਜ਼ਾਰ ਜਮ੍ਹਾਂ ਕਰਨੇ ਪੈਣਗੇ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ਯੂਟਿਊਬ ਵੀਡੀਓ ਲਾਈਕ ਕਰਕੇ ਪੈਸੇ ਕਮਾਓ, ਟਾਸਕ ਖੋਲ੍ਹਣ ਲਈ ਪਹਿਲਾਂ ਇੱਕ ਹਜ਼ਾਰ ਜਮ੍ਹਾਂ ਕਰੋ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Other scam",
+"prompt": "9fce7d0809"
+},
+"ਤੁਹਾਡਾ ਸਿਮ 5G ਵਿੱਚ ਬਦਲੇਗਾ, ਹੁਣੇ ਜੋ ਕੋਡ ਆਇਆ ਹੈ ਉਹ ਦੱਸੋ": {
+"lang": "pa",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ਮੈਂ ਤੁਹਾਡੇ ਬੈਂਕ ਤੋਂ ਬੋਲ ਰਿਹਾ ਹਾਂ, ਤੁਹਾਡੇ ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਬਾਰੇ ਗੱਲ ਕਰਨੀ ਹੈ": {
+"lang": "pa",
+"label": "warn",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"ਡਾਕਟਰ ਨੇ ਰਿਪੋਰਟ ਦੇਖ ਲਈ, ਸਭ ਠੀਕ ਹੈ": {
+"lang": "pa",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"আমি তোমার ম্যানেজার বলছি, মিটিংয়ে আছি, পাঁচটা গুগল প্লে গিফট কার্ড কিনে কোডগুলো পাঠাও": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"আপনার বিদেশি বন্ধুর উপহার কাস্টমসে আটকে আছে, ছাড়ানোর জন্য পঁচিশ হাজার টাকা জমা দিতে হবে": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 65,
+"rules_signs": [
+"family",
+"authority"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ইউটিউব ভিডিও লাইক করে টাকা আয় করুন, টাস্ক খুলতে আগে এক হাজার টাকা জমা দিন": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"আপনার সিম 5G-তে বদলাবে, এখন যে কোড এসেছে সেটা বলুন": {
+"lang": "bn",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"আমি আপনার ব্যাংক থেকে বলছি, আপনার ক্রেডিট কার্ড নিয়ে কথা বলতে চাই": {
+"lang": "bn",
+"label": "warn",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ডাক্তার রিপোর্ট দেখেছেন, সব স্বাভাবিক": {
+"lang": "bn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"நான் உங்கள் மேனேஜர் பேசுகிறேன், மீட்டிங்கில் இருக்கிறேன், ஐந்து கூகுள் பிளே கிஃப்ட் கார்டுகள் வாங்கி அவற்றின் கோடுகளை அனுப்புங்கள்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"உங்கள் வெளிநாட்டு நண்பரின் பரிசு சுங்கத்தில் சிக்கியுள்ளது, அனுமதிக்கு இருபத்தைந்தாயிரம் கட்ட வேண்டும்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 55,
+"rules_signs": [
+"authority",
+"prize"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"யூடியூப் வீடியோக்களை லைக் செய்து சம்பாதியுங்கள், டாஸ்க் திறக்க முதலில் ஆயிரம் ரூபாய் கட்டுங்கள்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"உங்கள் சிம் 5G ஆக மாறும், இப்போது வந்த கோடைச் சொல்லுங்கள்": {
+"lang": "ta",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"நான் உங்கள் வங்கியிலிருந்து பேசுகிறேன், உங்கள் கிரெடிட் கார்டு பற்றி பேச வேண்டும்": {
+"lang": "ta",
+"label": "warn",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"டாக்டர் ரிப்போர்ட்டைப் பார்த்தார், எல்லாம் நார்மல்": {
+"lang": "ta",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"నేను మీ మేనేజర్‌ని, మీటింగ్‌లో ఉన్నాను, ఐదు గూగుల్ ప్లే గిఫ్ట్ కార్డులు కొని వాటి కోడ్‌లు పంపండి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"మీ విదేశీ స్నేహితుడి బహుమతి కస్టమ్స్‌లో ఆగిపోయింది, క్లియరెన్స్ కోసం ఇరవై ఐదు వేలు కట్టాలి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 55,
+"rules_signs": [
+"authority",
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"యూట్యూబ్ వీడియోలు లైక్ చేసి డబ్బు సంపాదించండి, టాస్క్ తెరవడానికి ముందు వెయ్యి రూపాయలు కట్టండి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"మీ సిమ్ 5G గా మారుతుంది, ఇప్పుడు వచ్చిన కోడ్ చెప్పండి": {
+"lang": "te",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"నేను మీ బ్యాంక్ నుండి మాట్లాడుతున్నాను, మీ క్రెడిట్ కార్డ్ గురించి మాట్లాడాలి": {
+"lang": "te",
+"label": "warn",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"డాక్టర్ రిపోర్ట్ చూశారు, అంతా నార్మల్": {
+"lang": "te",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ನಾನು ನಿಮ್ಮ ಮ್ಯಾನೇಜರ್, ಮೀಟಿಂಗ್‌ನಲ್ಲಿದ್ದೇನೆ, ಐದು ಗೂಗಲ್ ಪ್ಲೇ ಗಿಫ್ಟ್ ಕಾರ್ಡ್ ಖರೀದಿಸಿ ಅವುಗಳ ಕೋಡ್ ಕಳುಹಿಸಿ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ವಿದೇಶಿ ಸ್ನೇಹಿತರ ಉಡುಗೊರೆ ಕಸ್ಟಮ್ಸ್‌ನಲ್ಲಿ ಸಿಕ್ಕಿಹಾಕಿಕೊಂಡಿದೆ, ಕ್ಲಿಯರೆನ್ಸ್‌ಗಾಗಿ ಇಪ್ಪತ್ತೈದು ಸಾವಿರ ಕಟ್ಟಬೇಕು": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"ಯೂಟ್ಯೂಬ್ ವಿಡಿಯೋ ಲೈಕ್ ಮಾಡಿ ಹಣ ಗಳಿಸಿ, ಟಾಸ್ಕ್ ತೆರೆಯಲು ಮೊದಲು ಸಾವಿರ ರೂಪಾಯಿ ಕಟ್ಟಿ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ನಿಮ್ಮ ಸಿಮ್ 5G ಆಗಿ ಬದಲಾಗುತ್ತದೆ, ಈಗ ಬಂದ ಕೋಡ್ ಹೇಳಿ": {
+"lang": "kn",
+"label": "scam",
+"rules_score": 45,
+"rules_signs": [
+"account_block"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ನಾನು ನಿಮ್ಮ ಬ್ಯಾಂಕ್‌ನಿಂದ ಮಾತನಾಡುತ್ತಿದ್ದೇನೆ, ನಿಮ್ಮ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್ ಬಗ್ಗೆ ಮಾತನಾಡಬೇಕು": {
+"lang": "kn",
+"label": "warn",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"ಡಾಕ್ಟರ್ ರಿಪೋರ್ಟ್ ನೋಡಿದರು, ಎಲ್ಲಾ ಸಾಮಾನ್ಯ": {
+"lang": "kn",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"ഞാൻ നിങ്ങളുടെ മാനേജരാണ്, മീറ്റിംഗിലാണ്, അഞ്ച് ഗൂഗിൾ പ്ലേ ഗിഫ്റ്റ് കാർഡുകൾ വാങ്ങി അവയുടെ കോഡുകൾ അയയ്ക്കൂ": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ വിദേശ സുഹൃത്തിന്റെ സമ്മാനം കസ്റ്റംസിൽ കുടുങ്ങി, ക്ലിയറൻസിനായി ഇരുപത്തയ്യായിരം അടയ്ക്കണം": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 55,
+"rules_signs": [
+"authority",
+"prize"
+],
+"evon_risk": 95,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"യൂട്യൂബ് വീഡിയോകൾ ലൈക്ക് ചെയ്ത് പണം സമ്പാദിക്കൂ, ടാസ്ക് തുറക്കാൻ ആദ്യം ആയിരം രൂപ അടയ്ക്കൂ": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"നിങ്ങളുടെ സിം 5G ആയി മാറും, ഇപ്പോൾ വന്ന കോഡ് പറയൂ": {
+"lang": "ml",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"ഞാൻ നിങ്ങളുടെ ബാങ്കിൽ നിന്നാണ് വിളിക്കുന്നത്, നിങ്ങളുടെ ക്രെഡിറ്റ് കാർഡിനെക്കുറിച്ച് സംസാരിക്കണം": {
+"lang": "ml",
+"label": "warn",
+"rules_score": 30,
+"rules_signs": [
+"authority"
+],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"ഡോക്ടർ റിപ്പോർട്ട് കണ്ടു, എല്ലാം സാധാരണമാണ്": {
+"lang": "ml",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 10,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+},
+"This is your manager, I'm in a meeting, buy five Google Play gift cards and send me the codes": {
+"lang": "en",
+"label": "scam",
+"rules_score": 35,
+"rules_signs": [
+"prize"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Your foreign friend's gift is stuck at customs, you need to pay 25,000 for clearance": {
+"lang": "en",
+"label": "scam",
+"rules_score": 79,
+"rules_signs": [
+"authority",
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Parcel or customs",
+"prompt": "9fce7d0809"
+},
+"Earn money by liking YouTube videos, deposit 1,000 first to unlock the tasks": {
+"lang": "en",
+"label": "scam",
+"rules_score": 50,
+"rules_signs": [
+"pay_now"
+],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"Your SIM is being upgraded to 5G, tell me the code you just received": {
+"lang": "en",
+"label": "scam",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 90,
+"evon_verdict": "scam",
+"scam_type": "Remote access app",
+"prompt": "9fce7d0809"
+},
+"I'm calling from your bank about your credit card": {
+"lang": "en",
+"label": "warn",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 55,
+"evon_verdict": "suspicious",
+"scam_type": "Bank or KYC",
+"prompt": "9fce7d0809"
+},
+"The doctor saw the report, everything is normal": {
+"lang": "en",
+"label": "safe",
+"rules_score": 0,
+"rules_signs": [],
+"evon_risk": 0,
+"evon_verdict": "safe",
+"scam_type": "None",
+"prompt": "9fce7d0809"
+}
+}
